@@ -1,0 +1,1621 @@
+2024-10-30 18:17:15 INFO  [main] e.e.service.UserServiceImpl - users_data.csv
+2024-10-30 18:17:15 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user20, email=user20@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:17:15 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1054-42S22: Unknown column 'password' in 'field list'
+2024-10-30 18:17:15 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=128) Unknown column 'password' in 'field list'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:46)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:17:15 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:24:38 INFO  [main] e.e.service.UserServiceImpl - users_data.csv
+2024-10-30 18:24:38 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user1, email=user1@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:24:38 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1054-42S22: Unknown column 'password' in 'field list'
+2024-10-30 18:24:38 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=129) Unknown column 'password' in 'field list'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:40)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:24:38 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:25:24 INFO  [main] e.e.service.UserServiceImpl - users_data.csv
+2024-10-30 18:25:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user1, email=user1@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:25:24 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1054-42S22: Unknown column 'password' in 'field list'
+2024-10-30 18:25:24 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=130) Unknown column 'password' in 'field list'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:40)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:25:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:26:01 INFO  [main] e.e.service.UserServiceImpl - users_data.csv
+2024-10-30 18:26:01 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user1, email=user1@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:26:01 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:26:01 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=131) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:40)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:26:01 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 INFO  [main] e.e.service.UserServiceImpl - users_data.csv
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user1, email=user1@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=132) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user2, email=user2@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=133) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user3, email=user3@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=134) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user4, email=user4@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=135) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user5, email=user5@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=136) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user6, email=user6@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=137) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user7, email=user7@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=138) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user8, email=user8@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=139) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user9, email=user9@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=140) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user10, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=141) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user11, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=142) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user12, email=user12@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=143) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user13, email=user13@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=144) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user14, email=user14@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=145) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user15, email=user15@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=146) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user16, email=user16@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=147) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user17, email=user17@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=148) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user18, email=user18@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=149) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user19, email=user19@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=150) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user20, email=user20@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:30:37 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1406-22001: Data too long for column 'password' at row 1
+2024-10-30 18:30:37 ERROR [main] e.e.service.UserServiceImpl - Error creando usuario 
+java.sql.SQLSyntaxErrorException: (conn=151) Data too long for column 'password' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:101)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:237)
+	at ejercicios.ejercicio05.dao.UserDao.insert(UserDao.java:22)
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:46)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:30:37 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+2024-10-30 18:30:37 INFO  [main] e.e.service.UserServiceImpl - El fichero se ha importado con un total de 0bien y mal 20
+2024-10-30 18:56:05 INFO  [main] e.e.service.UserServiceImpl - users_data.csv
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user1, email=user1@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 1
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user2, email=user2@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 2
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user3, email=user3@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 3
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user4, email=user4@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 4
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user5, email=user5@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 5
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user6, email=user6@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 6
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user7, email=user7@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 7
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user8, email=user8@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 8
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user9, email=user9@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 9
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user10, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 10
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user11, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 18:56:05 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user12, email=user12@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 11
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user13, email=user13@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 12
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user14, email=user14@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 13
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user15, email=user15@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 14
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user16, email=user16@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 15
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user17, email=user17@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 16
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user18, email=user18@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 17
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user19, email=user19@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 18
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user20, email=user20@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 18:56:05 DEBUG [main] e.e.service.UserServiceImpl - Usuario creado con éxito con id 19
+2024-10-30 18:56:05 INFO  [main] e.e.service.UserServiceImpl - El fichero se ha importado con un total de 19bien y mal 1
+2024-10-30 19:28:12 INFO  [main] e.e.service.UserServiceImpl - users_data.csv
+2024-10-30 19:28:12 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user1, email=user1@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user2, email=user2@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user3, email=user3@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user4, email=user4@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user5, email=user5@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user6, email=user6@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user7, email=user7@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user8, email=user8@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user9, email=user9@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user10, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user11, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user12, email=user12@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user13, email=user13@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user14, email=user14@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user15, email=user15@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user16, email=user16@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user17, email=user17@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user18, email=user18@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user19, email=user19@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user20, email=user20@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:13 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:13 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:13 INFO  [main] e.e.service.UserServiceImpl - El fichero se ha importado con un total de 0bien y mal 20
+2024-10-30 19:28:19 INFO  [main] e.e.service.UserServiceImpl - users_data.csv
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user1, email=user1@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user2, email=user2@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user3, email=user3@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user4, email=user4@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user5, email=user5@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user6, email=user6@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user7, email=user7@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user8, email=user8@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user9, email=user9@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user10, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user11, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user12, email=user12@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user13, email=user13@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user14, email=user14@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user15, email=user15@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user16, email=user16@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user17, email=user17@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user18, email=user18@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user19, email=user19@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user20, email=user20@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:19 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:19 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:19 INFO  [main] e.e.service.UserServiceImpl - El fichero se ha importado con un total de 0bien y mal 20
+2024-10-30 19:28:24 INFO  [main] e.e.service.UserServiceImpl - users_data.csv
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user1, email=user1@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user2, email=user2@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user3, email=user3@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user4, email=user4@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user5, email=user5@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user6, email=user6@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user7, email=user7@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user8, email=user8@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user9, email=user9@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user10, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user11, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user12, email=user12@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user13, email=user13@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user14, email=user14@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user15, email=user15@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user16, email=user16@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user17, email=user17@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user18, email=user18@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user19, email=user19@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user20, email=user20@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:24 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:24 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:24 INFO  [main] e.e.service.UserServiceImpl - El fichero se ha importado con un total de 0bien y mal 20
+2024-10-30 19:28:46 INFO  [main] e.e.service.UserServiceImpl - users_data.csv
+2024-10-30 19:28:46 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user1, email=user1@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user2, email=user2@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user3, email=user3@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user4, email=user4@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user5, email=user5@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user6, email=user6@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user7, email=user7@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user8, email=user8@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user9, email=user9@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user10, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user11, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user12, email=user12@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user13, email=user13@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user14, email=user14@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user15, email=user15@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user16, email=user16@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user17, email=user17@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user18, email=user18@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user19, email=user19@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user20, email=user20@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:28:47 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:28:47 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:28:47 INFO  [main] e.e.service.UserServiceImpl - El fichero se ha importado con un total de 0bien y mal 20
+2024-10-30 19:29:09 INFO  [main] e.e.service.UserServiceImpl - users_data.csv
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user1, email=user1@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user2, email=user2@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user3, email=user3@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user4, email=user4@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user5, email=user5@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user6, email=user6@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user7, email=user7@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user8, email=user8@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user9, email=user9@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user10, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user11, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user12, email=user12@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user13, email=user13@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user14, email=user14@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user15, email=user15@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user16, email=user16@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user17, email=user17@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user18, email=user18@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user19, email=user19@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user20, email=user20@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:09 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:09 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:09 INFO  [main] e.e.service.UserServiceImpl - El fichero se ha importado con un total de 0bien y mal 20
+2024-10-30 19:29:20 INFO  [main] e.e.service.UserServiceImpl - users_data.csv
+2024-10-30 19:29:20 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user1, email=user1@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user2, email=user2@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user3, email=user3@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user4, email=user4@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user5, email=user5@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user6, email=user6@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user7, email=user7@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user8, email=user8@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user9, email=user9@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user10, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user11, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user12, email=user12@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user13, email=user13@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user14, email=user14@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user15, email=user15@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user16, email=user16@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user17, email=user17@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user18, email=user18@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user19, email=user19@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user20, email=user20@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:21 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:21 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:21 INFO  [main] e.e.service.UserServiceImpl - El fichero se ha importado con un total de 0bien y mal 20
+2024-10-30 19:29:35 INFO  [main] e.e.service.UserServiceImpl - users_data.csv
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user1, email=user1@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user2, email=user2@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user3, email=user3@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user4, email=user4@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user5, email=user5@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user6, email=user6@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user7, email=user7@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user8, email=user8@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user9, email=user9@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user10, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user11, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user12, email=user12@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user13, email=user13@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user14, email=user14@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user15, email=user15@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user16, email=user16@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user17, email=user17@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user18, email=user18@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user19, email=user19@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user20, email=user20@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 19:29:35 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 19:29:35 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 19:29:35 INFO  [main] e.e.service.UserServiceImpl - El fichero se ha importado con un total de 0bien y mal 20
+2024-10-30 20:26:32 INFO  [main] e.e.service.UserServiceImpl - users_data.csv
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user1, email=user1@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user2, email=user2@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user3, email=user3@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user4, email=user4@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user5, email=user5@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user6, email=user6@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user7, email=user7@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user8, email=user8@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user9, email=user9@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user10, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user11, email=repetido@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user12, email=user12@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user13, email=user13@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user14, email=user14@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user15, email=user15@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user16, email=user16@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user17, email=user17@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user18, email=user18@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user19, email=user19@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Creando nuevo usuario: User(id=null, username=user20, email=user20@example.com, password=fuego, createdDate=null, lastLoginDate=null)
+2024-10-30 20:26:32 DEBUG [main] e.e.service.UserServiceImpl - Usuario con email repetido
+2024-10-30 20:26:32 WARN  [main] e.e.service.UserServiceImpl - Error creando usuario
+ejercicios.ejercicio05.service.DuplicateUserException: Ya existe usuario con el email indicado
+	at ejercicios.ejercicio05.service.UserServiceImpl.createUser(UserServiceImpl.java:33)
+	at ejercicio02.service.Ejercicio02Service.importarUsuarioCSV(Ejercicio02Service.java:43)
+	at ejercicio02.test.Test2.main(Test2.java:10)
+2024-10-30 20:26:32 INFO  [main] e.e.service.UserServiceImpl - El fichero se ha importado con un total de 0bien y mal 20

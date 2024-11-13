@@ -1,0 +1,3034 @@
+2024-10-29 20:40:35 INFO  [main] e.e.services.PeliculasService - peliculaPruebaCsv
+2024-10-29 20:40:35 WARN  [main] o.m.jdbc.message.server.ErrorPacket - Error: 1045-28000: Access denied for user 'sakila'@'localhost' (using password: YES)
+2024-10-29 20:41:46 INFO  [main] e.e.services.PeliculasService - peliculaPruebaCsv
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=1, nombre=ACADEMY DINOSAUR, longitud=86)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=2, nombre=ACE GOLDFINGER, longitud=48)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=3, nombre=ADAPTATION HOLES, longitud=50)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=7, nombre=AIRPLANE SIERRA, longitud=62)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=8, nombre=AIRPORT POLLOCK, longitud=54)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=10, nombre=ALADDIN CALENDAR, longitud=63)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=14, nombre=ALICE FANTASIA, longitud=94)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=15, nombre=ALIEN CENTER, longitud=46)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=17, nombre=ALONE TRIP, longitud=82)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=18, nombre=ALTER VICTORY, longitud=57)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=20, nombre=AMELIE HELLFIGHTERS, longitud=79)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=22, nombre=AMISTAD MIDSUMMER, longitud=85)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=23, nombre=ANACONDA CONFESSIONS, longitud=92)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=25, nombre=ANGELS LIFE, longitud=74)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=26, nombre=ANNIE IDENTITY, longitud=86)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=28, nombre=ANTHEM LUKE, longitud=91)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=30, nombre=ANYTHING SAVANNAH, longitud=82)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=31, nombre=APACHE DIVINE, longitud=92)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=34, nombre=ARABIA DOGMA, longitud=62)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=38, nombre=ARK RIDGEMONT, longitud=68)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=39, nombre=ARMAGEDDON LOST, longitud=99)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=45, nombre=ATTRACTION NEWTON, longitud=83)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=51, nombre=BALLOON HOMEWARD, longitud=75)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=53, nombre=BANG KWAI, longitud=87)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=55, nombre=BARBARELLA STREETCAR, longitud=65)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=57, nombre=BASIC EASY, longitud=90)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=60, nombre=BEAST HUNCHBACK, longitud=89)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=63, nombre=BEDAZZLED MARRIED, longitud=73)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=66, nombre=BENEATH RUSH, longitud=53)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=67, nombre=BERETS AGENT, longitud=77)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=69, nombre=BEVERLY OUTLAW, longitud=85)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=72, nombre=BILL OTHERS, longitud=93)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=77, nombre=BIRDS PERDITION, longitud=61)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=78, nombre=BLACKOUT PRIVATE, longitud=85)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=82, nombre=BLOOD ARGONAUTS, longitud=71)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=83, nombre=BLUES INSTINCT, longitud=50)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=85, nombre=BONNIE HOLOCAUST, longitud=63)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=87, nombre=BOONDOCK BALLROOM, longitud=76)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=89, nombre=BORROWERS BEDAZZLED, longitud=63)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=90, nombre=BOULEVARD MOB, longitud=63)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=91, nombre=BOUND CHEAPER, longitud=98)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=92, nombre=BOWFINGER GABLES, longitud=72)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=97, nombre=BRIDE INTRIGUE, longitud=56)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=98, nombre=BRIGHT ENCOUNTERS, longitud=73)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=101, nombre=BROTHERHOOD BLANKET, longitud=73)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=102, nombre=BUBBLE GROSSE, longitud=60)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=106, nombre=BULWORTH COMMANDMENTS, longitud=61)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=107, nombre=BUNCH MINDS, longitud=63)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=108, nombre=BUTCH PANTHER, longitud=67)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=109, nombre=BUTTERFLY CHOCOLAT, longitud=89)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=110, nombre=CABIN FLASH, longitud=53)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=111, nombre=CADDYSHACK JEDI, longitud=52)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=113, nombre=CALIFORNIA BIRDS, longitud=75)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=114, nombre=CAMELOT VACATION, longitud=61)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=116, nombre=CANDIDATE PERDITION, longitud=70)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=118, nombre=CANYON STOCK, longitud=85)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=120, nombre=CARIBBEAN LIBERTY, longitud=92)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=123, nombre=CASABLANCA SUPER, longitud=85)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=125, nombre=CASSIDY WYOMING, longitud=61)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=134, nombre=CHAMPION FLATLINERS, longitud=51)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=135, nombre=CHANCE RESURRECTION, longitud=70)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=137, nombre=CHARADE DUFFEL, longitud=66)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=138, nombre=CHARIOTS CONSPIRACY, longitud=71)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=140, nombre=CHEAPER CLYDE, longitud=87)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=144, nombre=CHINATOWN GLADIATOR, longitud=61)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=152, nombre=CIRCUS YOUTH, longitud=90)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=154, nombre=CLASH FREDDY, longitud=81)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=159, nombre=CLOSER BANG, longitud=58)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=160, nombre=CLUB GRAFFITI, longitud=65)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=161, nombre=CLUE GRAIL, longitud=70)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=162, nombre=CLUELESS BUCKET, longitud=95)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=164, nombre=COAST RAINBOW, longitud=55)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=165, nombre=COLDBLOODED DARLING, longitud=70)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=168, nombre=COMANCHEROS ENEMY, longitud=67)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=169, nombre=COMFORTS RUSH, longitud=76)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=171, nombre=COMMANDMENTS EXPRESS, longitud=59)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=173, nombre=CONFESSIONS MAGUIRE, longitud=65)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=176, nombre=CONGENIALITY QUEST, longitud=87)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=184, nombre=CORE SUIT, longitud=92)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=186, nombre=CRAFT OUTFIELD, longitud=64)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=187, nombre=CRANES RESERVOIR, longitud=57)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=192, nombre=CROSSING DIVORCE, longitud=50)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=196, nombre=CRUELTY UNFORGIVEN, longitud=69)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=199, nombre=CUPBOARD SINNERS, longitud=56)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=203, nombre=DAISY MENAGERIE, longitud=84)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=205, nombre=DANCES NONE, longitud=58)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=208, nombre=DARES PLUTO, longitud=89)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=209, nombre=DARKNESS WAR, longitud=99)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=214, nombre=DAUGHTER MADIGAN, longitud=59)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=215, nombre=DAWN POND, longitud=57)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=219, nombre=DEEP CRUSADE, longitud=51)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=222, nombre=DESERT POSEIDON, longitud=64)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=223, nombre=DESIRE ALIEN, longitud=76)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=224, nombre=DESPERATE TRAINSPOTTING, longitud=81)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=225, nombre=DESTINATION JERK, longitud=76)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=226, nombre=DESTINY SATURDAY, longitud=56)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=227, nombre=DETAILS PACKER, longitud=88)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=229, nombre=DEVIL DESIRE, longitud=87)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=231, nombre=DINOSAUR SECRETARY, longitud=63)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=234, nombre=DISTURBING SCARFACE, longitud=94)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=235, nombre=DIVIDE MONSTER, longitud=68)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=237, nombre=DIVORCE SHINING, longitud=47)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=238, nombre=DOCTOR GRAIL, longitud=57)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=242, nombre=DOOM DANCING, longitud=68)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=243, nombre=DOORS PRESIDENT, longitud=49)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=247, nombre=DOWNHILL ENOUGH, longitud=47)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=253, nombre=DRIFTER COMMANDMENTS, longitud=61)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=258, nombre=DRUMS DYNAMITE, longitud=96)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=268, nombre=EARLY HOME, longitud=96)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=269, nombre=EARRING INSTINCT, longitud=98)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=270, nombre=EARTH VISION, longitud=85)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=274, nombre=EGG IGBY, longitud=67)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=275, nombre=EGYPT TENENBAUMS, longitud=85)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=282, nombre=ENCOUNTERS CURTAIN, longitud=92)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=283, nombre=ENDING CROWDS, longitud=85)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=284, nombre=ENEMY ODDS, longitud=77)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=285, nombre=ENGLISH BULWORTH, longitud=51)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=289, nombre=EVE RESURRECTION, longitud=66)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=292, nombre=EXCITEMENT EVE, longitud=51)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=295, nombre=EXPENDABLE STALLION, longitud=97)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=303, nombre=FANTASY TROOPERS, longitud=58)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=305, nombre=FATAL HAUNTED, longitud=91)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=307, nombre=FELLOWSHIP AUTUMN, longitud=77)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=309, nombre=FEUD FROGMEN, longitud=98)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=311, nombre=FICTION CHRISTMAS, longitud=72)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=312, nombre=FIDDLER LOST, longitud=75)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=314, nombre=FIGHT JAWBREAKER, longitud=91)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=320, nombre=FLAMINGOS CONNECTICUT, longitud=80)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=326, nombre=FLYING HOOK, longitud=69)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=329, nombre=FORREST SONS, longitud=63)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=331, nombre=FORWARD TEMPLE, longitud=90)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=334, nombre=FREDDY STORM, longitud=65)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=336, nombre=FRENCH HOLIDAY, longitud=99)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=337, nombre=FRIDA SLIPPER, longitud=73)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=338, nombre=FRISCO FORREST, longitud=51)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=341, nombre=FROST HEAD, longitud=82)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=342, nombre=FUGITIVE MAGUIRE, longitud=83)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=343, nombre=FULL FLATLINERS, longitud=94)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=348, nombre=GANDHI KWAI, longitud=86)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=350, nombre=GARDEN ISLAND, longitud=80)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=354, nombre=GHOST GROUNDHOG, longitud=85)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=361, nombre=GLEAMING JAWBREAKER, longitud=89)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=363, nombre=GO PURPLE, longitud=54)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=364, nombre=GODFATHER DIARY, longitud=73)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=366, nombre=GOLDFINGER SENSIBILITY, longitud=93)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=368, nombre=GONE TROUBLE, longitud=84)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=369, nombre=GOODFELLAS SALUTE, longitud=56)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=375, nombre=GRAIL FRANKENSTEIN, longitud=85)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=378, nombre=GREATEST NORTH, longitud=93)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=384, nombre=GROSSE WONDERFUL, longitud=49)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=386, nombre=GUMP DATE, longitud=53)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=388, nombre=GUNFIGHT MOON, longitud=70)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=390, nombre=GUYS FALCON, longitud=84)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=392, nombre=HALL CASSIDY, longitud=51)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=393, nombre=HALLOWEEN NUTS, longitud=47)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=396, nombre=HANGING DEEP, longitud=62)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=398, nombre=HANOVER GALAXY, longitud=47)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=400, nombre=HARDLY ROBBERS, longitud=72)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=402, nombre=HARPER DYING, longitud=52)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=405, nombre=HAUNTED ANTITRUST, longitud=76)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=407, nombre=HAWK CHILL, longitud=47)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=408, nombre=HEAD STRANGER, longitud=69)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=409, nombre=HEARTBREAKERS BRIGHT, longitud=59)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=410, nombre=HEAVEN FREEDOM, longitud=48)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=411, nombre=HEAVENLY GUN, longitud=49)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=414, nombre=HELLFIGHTERS SIERRA, longitud=75)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=415, nombre=HIGH ENCINO, longitud=84)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=417, nombre=HILLS NEIGHBORS, longitud=93)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=421, nombre=HOLIDAY GAMES, longitud=78)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=423, nombre=HOLLYWOOD ANONYMOUS, longitud=69)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=425, nombre=HOLY TADPOLE, longitud=88)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=429, nombre=HONEY TIES, longitud=84)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=430, nombre=HOOK CHARIOTS, longitud=49)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=433, nombre=HORN WORKING, longitud=95)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=438, nombre=HUMAN GRAFFITI, longitud=68)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=442, nombre=HUNTING MUSKETEERS, longitud=65)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=443, nombre=HURRICANE AFFAIR, longitud=49)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=444, nombre=HUSTLER PARTY, longitud=83)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=450, nombre=IDOLS SNATCHERS, longitud=84)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=459, nombre=INFORMER DOUBLE, longitud=74)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=462, nombre=INSIDER ARIZONA, longitud=78)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=465, nombre=INTERVIEW LIAISONS, longitud=59)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=466, nombre=INTOLERABLE INTENTIONS, longitud=63)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=468, nombre=INVASION CYCLONE, longitud=97)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=469, nombre=IRON MOON, longitud=46)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=470, nombre=ISHTAR ROCKETEER, longitud=79)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=471, nombre=ISLAND EXORCIST, longitud=84)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=480, nombre=JEEPERS WEDDING, longitud=84)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=481, nombre=JEKYLL FROGMEN, longitud=58)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=485, nombre=JERSEY SASSY, longitud=60)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=486, nombre=JET NEIGHBORS, longitud=59)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=489, nombre=JUGGLER HARDLY, longitud=54)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=491, nombre=JUMPING WRATH, longitud=74)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=493, nombre=KANE EXORCIST, longitud=92)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=497, nombre=KILL BROTHERHOOD, longitud=54)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=502, nombre=KNOCK WARLOCK, longitud=71)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=504, nombre=KWAI HOMEWARD, longitud=46)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=505, nombre=LABYRINTH LEAGUE, longitud=46)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=506, nombre=LADY STAGE, longitud=67)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=509, nombre=LANGUAGE COWBOY, longitud=78)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=514, nombre=LEBOWSKI SOLDIERS, longitud=69)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=516, nombre=LEGEND JEDI, longitud=59)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=520, nombre=LICENSE WEEKEND, longitud=91)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=524, nombre=LION UNCUT, longitud=50)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=527, nombre=LOLA AGENT, longitud=85)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=529, nombre=LONELY ELEPHANT, longitud=67)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=532, nombre=LOSER HUSTLER, longitud=80)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=533, nombre=LOST BIRD, longitud=98)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=534, nombre=LOUISIANA HARRY, longitud=70)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=536, nombre=LOVELY JINGLE, longitud=65)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=537, nombre=LOVER TRUMAN, longitud=75)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=540, nombre=LUCKY FLYING, longitud=97)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=541, nombre=LUKE MUMMY, longitud=74)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=542, nombre=LUST LOCK, longitud=52)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=546, nombre=MADRE GABLES, longitud=98)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=548, nombre=MAGNIFICENT CHITTY, longitud=53)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=550, nombre=MAGUIRE APACHE, longitud=74)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=558, nombre=MANNEQUIN WORST, longitud=71)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=560, nombre=MARS ROMAN, longitud=62)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=565, nombre=MATRIX SNOWMAN, longitud=56)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=566, nombre=MAUDE MOD, longitud=72)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=567, nombre=MEET CHOCOLATE, longitud=80)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=568, nombre=MEMENTO ZOOLANDER, longitud=77)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=572, nombre=METROPOLIS COMA, longitud=64)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=574, nombre=MIDNIGHT WESTWARD, longitud=86)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=575, nombre=MIDSUMMER GROUNDHOG, longitud=48)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=577, nombre=MILE MULAN, longitud=64)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=581, nombre=MINORITY KISS, longitud=59)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=586, nombre=MOCKINGBIRD HOLLYWOOD, longitud=60)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=587, nombre=MOD SECRETARY, longitud=77)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=589, nombre=MODERN DORADO, longitud=74)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=595, nombre=MOON BUNCH, longitud=83)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=598, nombre=MOSQUITO ARMAGEDDON, longitud=57)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=601, nombre=MOULIN WAKE, longitud=79)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=603, nombre=MOVIE SHAKESPEARE, longitud=53)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=607, nombre=MUPPET MILE, longitud=50)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=611, nombre=MUSKETEERS WAIT, longitud=73)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=613, nombre=MYSTIC TRUMAN, longitud=92)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=616, nombre=NATIONAL STORY, longitud=92)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=617, nombre=NATURAL STOCK, longitud=50)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=621, nombre=NETWORK PEAK, longitud=75)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=623, nombre=NEWTON LABYRINTH, longitud=75)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=625, nombre=NONE SPIKING, longitud=83)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=626, nombre=NOON PAPI, longitud=57)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=627, nombre=NORTH TEQUILA, longitud=67)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=630, nombre=NOTTING SPEAKEASY, longitud=48)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=631, nombre=NOVOCAINE FLIGHT, longitud=64)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=633, nombre=OCTOBER SUBMARINE, longitud=54)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=634, nombre=ODDS BOOGIE, longitud=48)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=635, nombre=OKLAHOMA JUMANJI, longitud=58)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=639, nombre=OPPOSITE NECKLACE, longitud=92)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=641, nombre=ORANGE GRAPES, longitud=76)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=649, nombre=OZ LIAISONS, longitud=85)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=651, nombre=PACKER MADIGAN, longitud=84)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=654, nombre=PANKY SUBMARINE, longitud=93)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=657, nombre=PARADISE SABRINA, longitud=48)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=663, nombre=PATIENT SISTER, longitud=99)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=664, nombre=PATRIOT ROMAN, longitud=65)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=668, nombre=PEAK FOREVER, longitud=80)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=669, nombre=PEARL DESTINY, longitud=74)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=670, nombre=PELICAN COMFORTS, longitud=48)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=671, nombre=PERDITION FARGO, longitud=99)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=672, nombre=PERFECT GROOVE, longitud=82)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=674, nombre=PET HAUNTING, longitud=99)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=675, nombre=PHANTOM GLORY, longitud=60)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=678, nombre=PICKUP DRIVING, longitud=77)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=679, nombre=PILOT HOOSIERS, longitud=50)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=683, nombre=PITY BOUND, longitud=60)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=686, nombre=PLUTO OLEANDER, longitud=84)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=688, nombre=POLISH BROOKLYN, longitud=61)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=694, nombre=PREJUDICE OLEANDER, longitud=98)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=697, nombre=PRIMARY GLASS, longitud=53)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=698, nombre=PRINCESS GIANT, longitud=71)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=702, nombre=PULP BEVERLY, longitud=89)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=705, nombre=PURPLE MOVIE, longitud=88)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=712, nombre=RAIDERS ANTITRUST, longitud=82)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=713, nombre=RAINBOW SHOCK, longitud=74)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=714, nombre=RANDOM GO, longitud=73)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=717, nombre=REAR TRADING, longitud=97)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=718, nombre=REBEL AIRPORT, longitud=73)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=723, nombre=REIGN GENTLEMEN, longitud=82)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=726, nombre=RESERVOIR ADAPTATION, longitud=61)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=728, nombre=REUNION WITCHES, longitud=63)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=730, nombre=RIDGEMONT SUBMARINE, longitud=46)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=732, nombre=RINGS HEARTBREAKERS, longitud=58)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=741, nombre=ROMAN PUNK, longitud=81)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=743, nombre=ROOM ROMAN, longitud=60)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=744, nombre=ROOTS REMEMBER, longitud=89)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=753, nombre=RUSH GOODFELLAS, longitud=48)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=755, nombre=SABRINA MIDNIGHT, longitud=99)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=756, nombre=SADDLE ANTITRUST, longitud=80)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=759, nombre=SALUTE APOLLO, longitud=73)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=763, nombre=SATISFACTION CONFIDENTIAL, longitud=75)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=766, nombre=SAVANNAH TOWN, longitud=84)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=772, nombre=SEA VIRGIN, longitud=80)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=776, nombre=SECRET GROUNDHOG, longitud=90)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=779, nombre=SENSE GREEK, longitud=54)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=780, nombre=SENSIBILITY REAR, longitud=98)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=782, nombre=SHAKESPEARE SADDLE, longitud=60)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=783, nombre=SHANE DARKNESS, longitud=93)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=784, nombre=SHANGHAI TYCOON, longitud=47)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=785, nombre=SHAWSHANK BUBBLE, longitud=80)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=789, nombre=SHOCK CABIN, longitud=79)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=790, nombre=SHOOTIST SUPERFLY, longitud=67)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=794, nombre=SIDE ARK, longitud=52)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=797, nombre=SILENCE KANE, longitud=67)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=798, nombre=SILVERADO GOLDFINGER, longitud=74)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=799, nombre=SIMON NORTH, longitud=51)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=805, nombre=SLEEPLESS MONSOON, longitud=64)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=807, nombre=SLEUTH ORIENT, longitud=87)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=808, nombre=SLING LUKE, longitud=84)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=811, nombre=SMILE EARRING, longitud=60)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=812, nombre=SMOKING BARBARELLA, longitud=50)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=815, nombre=SNATCHERS MONTEZUMA, longitud=74)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=816, nombre=SNOWMAN ROLLERCOASTER, longitud=62)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=824, nombre=SPARTACUS CHEAPER, longitud=52)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=828, nombre=SPIKING ELEMENT, longitud=79)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=837, nombre=STAGE WORLD, longitud=85)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=840, nombre=STAMPEDE DISTURBING, longitud=75)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=845, nombre=STEPMOM DREAM, longitud=48)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=846, nombre=STING PERSONAL, longitud=93)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=848, nombre=STONE FIRE, longitud=94)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=849, nombre=STORM HAPPINESS, longitud=57)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=856, nombre=STREETCAR INTENTIONS, longitud=73)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=860, nombre=SUICIDES SILENCE, longitud=93)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=862, nombre=SUMMER SCARFACE, longitud=53)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=864, nombre=SUNDANCE INVASION, longitud=92)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=866, nombre=SUNSET RACER, longitud=48)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=867, nombre=SUPER WYOMING, longitud=58)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=869, nombre=SUSPECTS QUILLS, longitud=47)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=876, nombre=TARZAN VIDEOTAPE, longitud=91)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=877, nombre=TAXI KICK, longitud=64)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=878, nombre=TEEN APOLLO, longitud=74)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=881, nombre=TEMPLE ATTRACTION, longitud=71)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=882, nombre=TENENBAUMS COMMAND, longitud=99)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=883, nombre=TEQUILA PAST, longitud=53)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=884, nombre=TERMINATOR CLUB, longitud=88)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=888, nombre=THIN SAGEBRUSH, longitud=53)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=891, nombre=TIMBERLAND SKY, longitud=69)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=893, nombre=TITANS JERK, longitud=91)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=894, nombre=TOMATOES HELLFIGHTERS, longitud=68)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=904, nombre=TRAIN BUNCH, longitud=71)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=910, nombre=TREATMENT JEKYLL, longitud=87)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=911, nombre=TRIP NEWTON, longitud=64)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=912, nombre=TROJAN TOMORROW, longitud=52)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=914, nombre=TROUBLE DATE, longitud=61)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=915, nombre=TRUMAN CRAZY, longitud=92)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=916, nombre=TURN STAR, longitud=80)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=919, nombre=TYCOON GATHERING, longitud=82)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=920, nombre=UNBREAKABLE KARATE, longitud=62)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=923, nombre=UNFAITHFUL KILL, longitud=78)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=928, nombre=UPTOWN YOUNG, longitud=84)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=931, nombre=VALENTINE VANISHING, longitud=48)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=932, nombre=VALLEY PACKER, longitud=73)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=937, nombre=VARSITY TRIP, longitud=85)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=939, nombre=VERTIGO NORTHWEST, longitud=90)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=940, nombre=VICTORY ACADEMY, longitud=64)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=943, nombre=VILLAIN DESPERATE, longitud=76)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=947, nombre=VISION TORQUE, longitud=59)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=951, nombre=VOYAGE LEGALLY, longitud=78)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=954, nombre=WAKE JAWS, longitud=73)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=957, nombre=WAR NOTTING, longitud=80)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=959, nombre=WARLOCK WEREWOLF, longitud=83)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=962, nombre=WASTELAND DIVINE, longitud=85)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=963, nombre=WATCH TRACY, longitud=78)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=964, nombre=WATERFRONT DELIVERANCE, longitud=61)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=966, nombre=WEDDING APOLLO, longitud=70)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=968, nombre=WEREWOLF LOLA, longitud=79)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=970, nombre=WESTWARD SEABISCUIT, longitud=52)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=972, nombre=WHISPERER GIANT, longitud=59)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=977, nombre=WINDOW SIDE, longitud=85)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=978, nombre=WISDOM WORKER, longitud=98)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=980, nombre=WIZARD COLDBLOODED, longitud=75)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=981, nombre=WOLVES DESIRE, longitud=55)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=986, nombre=WONKA SEA, longitud=85)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=989, nombre=WORKING MICROCOSMOS, longitud=74)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=995, nombre=YENTL IDAHO, longitud=86)
+
+2024-10-29 20:41:46 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=1000, nombre=ZORRO ARK, longitud=50)
+
+2024-10-29 20:41:46 INFO  [main] e.e.services.PeliculasService - Se ha generado el fichero con un total de 378
+2024-10-29 20:45:51 INFO  [main] e.e.services.PeliculasService - peliculaPruebaCsv
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=1, nombre=ACADEMY DINOSAUR, longitud=86)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=2, nombre=ACE GOLDFINGER, longitud=48)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=3, nombre=ADAPTATION HOLES, longitud=50)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=7, nombre=AIRPLANE SIERRA, longitud=62)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=8, nombre=AIRPORT POLLOCK, longitud=54)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=10, nombre=ALADDIN CALENDAR, longitud=63)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=14, nombre=ALICE FANTASIA, longitud=94)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=15, nombre=ALIEN CENTER, longitud=46)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=17, nombre=ALONE TRIP, longitud=82)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=18, nombre=ALTER VICTORY, longitud=57)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=20, nombre=AMELIE HELLFIGHTERS, longitud=79)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=22, nombre=AMISTAD MIDSUMMER, longitud=85)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=23, nombre=ANACONDA CONFESSIONS, longitud=92)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=25, nombre=ANGELS LIFE, longitud=74)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=26, nombre=ANNIE IDENTITY, longitud=86)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=28, nombre=ANTHEM LUKE, longitud=91)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=30, nombre=ANYTHING SAVANNAH, longitud=82)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=31, nombre=APACHE DIVINE, longitud=92)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=34, nombre=ARABIA DOGMA, longitud=62)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=38, nombre=ARK RIDGEMONT, longitud=68)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=39, nombre=ARMAGEDDON LOST, longitud=99)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=45, nombre=ATTRACTION NEWTON, longitud=83)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=51, nombre=BALLOON HOMEWARD, longitud=75)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=53, nombre=BANG KWAI, longitud=87)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=55, nombre=BARBARELLA STREETCAR, longitud=65)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=57, nombre=BASIC EASY, longitud=90)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=60, nombre=BEAST HUNCHBACK, longitud=89)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=63, nombre=BEDAZZLED MARRIED, longitud=73)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=66, nombre=BENEATH RUSH, longitud=53)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=67, nombre=BERETS AGENT, longitud=77)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=69, nombre=BEVERLY OUTLAW, longitud=85)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=72, nombre=BILL OTHERS, longitud=93)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=77, nombre=BIRDS PERDITION, longitud=61)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=78, nombre=BLACKOUT PRIVATE, longitud=85)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=82, nombre=BLOOD ARGONAUTS, longitud=71)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=83, nombre=BLUES INSTINCT, longitud=50)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=85, nombre=BONNIE HOLOCAUST, longitud=63)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=87, nombre=BOONDOCK BALLROOM, longitud=76)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=89, nombre=BORROWERS BEDAZZLED, longitud=63)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=90, nombre=BOULEVARD MOB, longitud=63)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=91, nombre=BOUND CHEAPER, longitud=98)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=92, nombre=BOWFINGER GABLES, longitud=72)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=97, nombre=BRIDE INTRIGUE, longitud=56)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=98, nombre=BRIGHT ENCOUNTERS, longitud=73)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=101, nombre=BROTHERHOOD BLANKET, longitud=73)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=102, nombre=BUBBLE GROSSE, longitud=60)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=106, nombre=BULWORTH COMMANDMENTS, longitud=61)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=107, nombre=BUNCH MINDS, longitud=63)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=108, nombre=BUTCH PANTHER, longitud=67)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=109, nombre=BUTTERFLY CHOCOLAT, longitud=89)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=110, nombre=CABIN FLASH, longitud=53)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=111, nombre=CADDYSHACK JEDI, longitud=52)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=113, nombre=CALIFORNIA BIRDS, longitud=75)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=114, nombre=CAMELOT VACATION, longitud=61)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=116, nombre=CANDIDATE PERDITION, longitud=70)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=118, nombre=CANYON STOCK, longitud=85)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=120, nombre=CARIBBEAN LIBERTY, longitud=92)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=123, nombre=CASABLANCA SUPER, longitud=85)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=125, nombre=CASSIDY WYOMING, longitud=61)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=134, nombre=CHAMPION FLATLINERS, longitud=51)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=135, nombre=CHANCE RESURRECTION, longitud=70)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=137, nombre=CHARADE DUFFEL, longitud=66)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=138, nombre=CHARIOTS CONSPIRACY, longitud=71)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=140, nombre=CHEAPER CLYDE, longitud=87)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=144, nombre=CHINATOWN GLADIATOR, longitud=61)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=152, nombre=CIRCUS YOUTH, longitud=90)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=154, nombre=CLASH FREDDY, longitud=81)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=159, nombre=CLOSER BANG, longitud=58)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=160, nombre=CLUB GRAFFITI, longitud=65)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=161, nombre=CLUE GRAIL, longitud=70)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=162, nombre=CLUELESS BUCKET, longitud=95)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=164, nombre=COAST RAINBOW, longitud=55)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=165, nombre=COLDBLOODED DARLING, longitud=70)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=168, nombre=COMANCHEROS ENEMY, longitud=67)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=169, nombre=COMFORTS RUSH, longitud=76)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=171, nombre=COMMANDMENTS EXPRESS, longitud=59)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=173, nombre=CONFESSIONS MAGUIRE, longitud=65)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=176, nombre=CONGENIALITY QUEST, longitud=87)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=184, nombre=CORE SUIT, longitud=92)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=186, nombre=CRAFT OUTFIELD, longitud=64)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=187, nombre=CRANES RESERVOIR, longitud=57)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=192, nombre=CROSSING DIVORCE, longitud=50)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=196, nombre=CRUELTY UNFORGIVEN, longitud=69)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=199, nombre=CUPBOARD SINNERS, longitud=56)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=203, nombre=DAISY MENAGERIE, longitud=84)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=205, nombre=DANCES NONE, longitud=58)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=208, nombre=DARES PLUTO, longitud=89)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=209, nombre=DARKNESS WAR, longitud=99)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=214, nombre=DAUGHTER MADIGAN, longitud=59)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=215, nombre=DAWN POND, longitud=57)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=219, nombre=DEEP CRUSADE, longitud=51)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=222, nombre=DESERT POSEIDON, longitud=64)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=223, nombre=DESIRE ALIEN, longitud=76)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=224, nombre=DESPERATE TRAINSPOTTING, longitud=81)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=225, nombre=DESTINATION JERK, longitud=76)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=226, nombre=DESTINY SATURDAY, longitud=56)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=227, nombre=DETAILS PACKER, longitud=88)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=229, nombre=DEVIL DESIRE, longitud=87)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=231, nombre=DINOSAUR SECRETARY, longitud=63)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=234, nombre=DISTURBING SCARFACE, longitud=94)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=235, nombre=DIVIDE MONSTER, longitud=68)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=237, nombre=DIVORCE SHINING, longitud=47)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=238, nombre=DOCTOR GRAIL, longitud=57)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=242, nombre=DOOM DANCING, longitud=68)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=243, nombre=DOORS PRESIDENT, longitud=49)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=247, nombre=DOWNHILL ENOUGH, longitud=47)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=253, nombre=DRIFTER COMMANDMENTS, longitud=61)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=258, nombre=DRUMS DYNAMITE, longitud=96)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=268, nombre=EARLY HOME, longitud=96)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=269, nombre=EARRING INSTINCT, longitud=98)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=270, nombre=EARTH VISION, longitud=85)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=274, nombre=EGG IGBY, longitud=67)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=275, nombre=EGYPT TENENBAUMS, longitud=85)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=282, nombre=ENCOUNTERS CURTAIN, longitud=92)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=283, nombre=ENDING CROWDS, longitud=85)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=284, nombre=ENEMY ODDS, longitud=77)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=285, nombre=ENGLISH BULWORTH, longitud=51)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=289, nombre=EVE RESURRECTION, longitud=66)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=292, nombre=EXCITEMENT EVE, longitud=51)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=295, nombre=EXPENDABLE STALLION, longitud=97)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=303, nombre=FANTASY TROOPERS, longitud=58)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=305, nombre=FATAL HAUNTED, longitud=91)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=307, nombre=FELLOWSHIP AUTUMN, longitud=77)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=309, nombre=FEUD FROGMEN, longitud=98)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=311, nombre=FICTION CHRISTMAS, longitud=72)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=312, nombre=FIDDLER LOST, longitud=75)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=314, nombre=FIGHT JAWBREAKER, longitud=91)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=320, nombre=FLAMINGOS CONNECTICUT, longitud=80)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=326, nombre=FLYING HOOK, longitud=69)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=329, nombre=FORREST SONS, longitud=63)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=331, nombre=FORWARD TEMPLE, longitud=90)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=334, nombre=FREDDY STORM, longitud=65)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=336, nombre=FRENCH HOLIDAY, longitud=99)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=337, nombre=FRIDA SLIPPER, longitud=73)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=338, nombre=FRISCO FORREST, longitud=51)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=341, nombre=FROST HEAD, longitud=82)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=342, nombre=FUGITIVE MAGUIRE, longitud=83)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=343, nombre=FULL FLATLINERS, longitud=94)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=348, nombre=GANDHI KWAI, longitud=86)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=350, nombre=GARDEN ISLAND, longitud=80)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=354, nombre=GHOST GROUNDHOG, longitud=85)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=361, nombre=GLEAMING JAWBREAKER, longitud=89)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=363, nombre=GO PURPLE, longitud=54)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=364, nombre=GODFATHER DIARY, longitud=73)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=366, nombre=GOLDFINGER SENSIBILITY, longitud=93)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=368, nombre=GONE TROUBLE, longitud=84)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=369, nombre=GOODFELLAS SALUTE, longitud=56)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=375, nombre=GRAIL FRANKENSTEIN, longitud=85)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=378, nombre=GREATEST NORTH, longitud=93)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=384, nombre=GROSSE WONDERFUL, longitud=49)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=386, nombre=GUMP DATE, longitud=53)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=388, nombre=GUNFIGHT MOON, longitud=70)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=390, nombre=GUYS FALCON, longitud=84)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=392, nombre=HALL CASSIDY, longitud=51)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=393, nombre=HALLOWEEN NUTS, longitud=47)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=396, nombre=HANGING DEEP, longitud=62)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=398, nombre=HANOVER GALAXY, longitud=47)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=400, nombre=HARDLY ROBBERS, longitud=72)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=402, nombre=HARPER DYING, longitud=52)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=405, nombre=HAUNTED ANTITRUST, longitud=76)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=407, nombre=HAWK CHILL, longitud=47)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=408, nombre=HEAD STRANGER, longitud=69)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=409, nombre=HEARTBREAKERS BRIGHT, longitud=59)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=410, nombre=HEAVEN FREEDOM, longitud=48)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=411, nombre=HEAVENLY GUN, longitud=49)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=414, nombre=HELLFIGHTERS SIERRA, longitud=75)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=415, nombre=HIGH ENCINO, longitud=84)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=417, nombre=HILLS NEIGHBORS, longitud=93)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=421, nombre=HOLIDAY GAMES, longitud=78)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=423, nombre=HOLLYWOOD ANONYMOUS, longitud=69)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=425, nombre=HOLY TADPOLE, longitud=88)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=429, nombre=HONEY TIES, longitud=84)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=430, nombre=HOOK CHARIOTS, longitud=49)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=433, nombre=HORN WORKING, longitud=95)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=438, nombre=HUMAN GRAFFITI, longitud=68)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=442, nombre=HUNTING MUSKETEERS, longitud=65)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=443, nombre=HURRICANE AFFAIR, longitud=49)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=444, nombre=HUSTLER PARTY, longitud=83)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=450, nombre=IDOLS SNATCHERS, longitud=84)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=459, nombre=INFORMER DOUBLE, longitud=74)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=462, nombre=INSIDER ARIZONA, longitud=78)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=465, nombre=INTERVIEW LIAISONS, longitud=59)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=466, nombre=INTOLERABLE INTENTIONS, longitud=63)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=468, nombre=INVASION CYCLONE, longitud=97)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=469, nombre=IRON MOON, longitud=46)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=470, nombre=ISHTAR ROCKETEER, longitud=79)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=471, nombre=ISLAND EXORCIST, longitud=84)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=480, nombre=JEEPERS WEDDING, longitud=84)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=481, nombre=JEKYLL FROGMEN, longitud=58)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=485, nombre=JERSEY SASSY, longitud=60)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=486, nombre=JET NEIGHBORS, longitud=59)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=489, nombre=JUGGLER HARDLY, longitud=54)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=491, nombre=JUMPING WRATH, longitud=74)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=493, nombre=KANE EXORCIST, longitud=92)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=497, nombre=KILL BROTHERHOOD, longitud=54)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=502, nombre=KNOCK WARLOCK, longitud=71)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=504, nombre=KWAI HOMEWARD, longitud=46)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=505, nombre=LABYRINTH LEAGUE, longitud=46)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=506, nombre=LADY STAGE, longitud=67)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=509, nombre=LANGUAGE COWBOY, longitud=78)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=514, nombre=LEBOWSKI SOLDIERS, longitud=69)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=516, nombre=LEGEND JEDI, longitud=59)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=520, nombre=LICENSE WEEKEND, longitud=91)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=524, nombre=LION UNCUT, longitud=50)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=527, nombre=LOLA AGENT, longitud=85)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=529, nombre=LONELY ELEPHANT, longitud=67)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=532, nombre=LOSER HUSTLER, longitud=80)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=533, nombre=LOST BIRD, longitud=98)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=534, nombre=LOUISIANA HARRY, longitud=70)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=536, nombre=LOVELY JINGLE, longitud=65)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=537, nombre=LOVER TRUMAN, longitud=75)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=540, nombre=LUCKY FLYING, longitud=97)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=541, nombre=LUKE MUMMY, longitud=74)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=542, nombre=LUST LOCK, longitud=52)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=546, nombre=MADRE GABLES, longitud=98)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=548, nombre=MAGNIFICENT CHITTY, longitud=53)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=550, nombre=MAGUIRE APACHE, longitud=74)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=558, nombre=MANNEQUIN WORST, longitud=71)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=560, nombre=MARS ROMAN, longitud=62)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=565, nombre=MATRIX SNOWMAN, longitud=56)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=566, nombre=MAUDE MOD, longitud=72)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=567, nombre=MEET CHOCOLATE, longitud=80)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=568, nombre=MEMENTO ZOOLANDER, longitud=77)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=572, nombre=METROPOLIS COMA, longitud=64)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=574, nombre=MIDNIGHT WESTWARD, longitud=86)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=575, nombre=MIDSUMMER GROUNDHOG, longitud=48)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=577, nombre=MILE MULAN, longitud=64)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=581, nombre=MINORITY KISS, longitud=59)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=586, nombre=MOCKINGBIRD HOLLYWOOD, longitud=60)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=587, nombre=MOD SECRETARY, longitud=77)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=589, nombre=MODERN DORADO, longitud=74)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=595, nombre=MOON BUNCH, longitud=83)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=598, nombre=MOSQUITO ARMAGEDDON, longitud=57)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=601, nombre=MOULIN WAKE, longitud=79)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=603, nombre=MOVIE SHAKESPEARE, longitud=53)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=607, nombre=MUPPET MILE, longitud=50)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=611, nombre=MUSKETEERS WAIT, longitud=73)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=613, nombre=MYSTIC TRUMAN, longitud=92)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=616, nombre=NATIONAL STORY, longitud=92)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=617, nombre=NATURAL STOCK, longitud=50)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=621, nombre=NETWORK PEAK, longitud=75)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=623, nombre=NEWTON LABYRINTH, longitud=75)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=625, nombre=NONE SPIKING, longitud=83)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=626, nombre=NOON PAPI, longitud=57)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=627, nombre=NORTH TEQUILA, longitud=67)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=630, nombre=NOTTING SPEAKEASY, longitud=48)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=631, nombre=NOVOCAINE FLIGHT, longitud=64)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=633, nombre=OCTOBER SUBMARINE, longitud=54)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=634, nombre=ODDS BOOGIE, longitud=48)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=635, nombre=OKLAHOMA JUMANJI, longitud=58)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=639, nombre=OPPOSITE NECKLACE, longitud=92)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=641, nombre=ORANGE GRAPES, longitud=76)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=649, nombre=OZ LIAISONS, longitud=85)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=651, nombre=PACKER MADIGAN, longitud=84)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=654, nombre=PANKY SUBMARINE, longitud=93)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=657, nombre=PARADISE SABRINA, longitud=48)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=663, nombre=PATIENT SISTER, longitud=99)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=664, nombre=PATRIOT ROMAN, longitud=65)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=668, nombre=PEAK FOREVER, longitud=80)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=669, nombre=PEARL DESTINY, longitud=74)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=670, nombre=PELICAN COMFORTS, longitud=48)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=671, nombre=PERDITION FARGO, longitud=99)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=672, nombre=PERFECT GROOVE, longitud=82)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=674, nombre=PET HAUNTING, longitud=99)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=675, nombre=PHANTOM GLORY, longitud=60)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=678, nombre=PICKUP DRIVING, longitud=77)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=679, nombre=PILOT HOOSIERS, longitud=50)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=683, nombre=PITY BOUND, longitud=60)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=686, nombre=PLUTO OLEANDER, longitud=84)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=688, nombre=POLISH BROOKLYN, longitud=61)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=694, nombre=PREJUDICE OLEANDER, longitud=98)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=697, nombre=PRIMARY GLASS, longitud=53)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=698, nombre=PRINCESS GIANT, longitud=71)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=702, nombre=PULP BEVERLY, longitud=89)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=705, nombre=PURPLE MOVIE, longitud=88)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=712, nombre=RAIDERS ANTITRUST, longitud=82)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=713, nombre=RAINBOW SHOCK, longitud=74)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=714, nombre=RANDOM GO, longitud=73)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=717, nombre=REAR TRADING, longitud=97)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=718, nombre=REBEL AIRPORT, longitud=73)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=723, nombre=REIGN GENTLEMEN, longitud=82)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=726, nombre=RESERVOIR ADAPTATION, longitud=61)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=728, nombre=REUNION WITCHES, longitud=63)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=730, nombre=RIDGEMONT SUBMARINE, longitud=46)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=732, nombre=RINGS HEARTBREAKERS, longitud=58)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=741, nombre=ROMAN PUNK, longitud=81)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=743, nombre=ROOM ROMAN, longitud=60)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=744, nombre=ROOTS REMEMBER, longitud=89)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=753, nombre=RUSH GOODFELLAS, longitud=48)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=755, nombre=SABRINA MIDNIGHT, longitud=99)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=756, nombre=SADDLE ANTITRUST, longitud=80)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=759, nombre=SALUTE APOLLO, longitud=73)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=763, nombre=SATISFACTION CONFIDENTIAL, longitud=75)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=766, nombre=SAVANNAH TOWN, longitud=84)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=772, nombre=SEA VIRGIN, longitud=80)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=776, nombre=SECRET GROUNDHOG, longitud=90)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=779, nombre=SENSE GREEK, longitud=54)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=780, nombre=SENSIBILITY REAR, longitud=98)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=782, nombre=SHAKESPEARE SADDLE, longitud=60)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=783, nombre=SHANE DARKNESS, longitud=93)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=784, nombre=SHANGHAI TYCOON, longitud=47)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=785, nombre=SHAWSHANK BUBBLE, longitud=80)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=789, nombre=SHOCK CABIN, longitud=79)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=790, nombre=SHOOTIST SUPERFLY, longitud=67)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=794, nombre=SIDE ARK, longitud=52)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=797, nombre=SILENCE KANE, longitud=67)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=798, nombre=SILVERADO GOLDFINGER, longitud=74)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=799, nombre=SIMON NORTH, longitud=51)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=805, nombre=SLEEPLESS MONSOON, longitud=64)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=807, nombre=SLEUTH ORIENT, longitud=87)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=808, nombre=SLING LUKE, longitud=84)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=811, nombre=SMILE EARRING, longitud=60)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=812, nombre=SMOKING BARBARELLA, longitud=50)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=815, nombre=SNATCHERS MONTEZUMA, longitud=74)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=816, nombre=SNOWMAN ROLLERCOASTER, longitud=62)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=824, nombre=SPARTACUS CHEAPER, longitud=52)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=828, nombre=SPIKING ELEMENT, longitud=79)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=837, nombre=STAGE WORLD, longitud=85)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=840, nombre=STAMPEDE DISTURBING, longitud=75)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=845, nombre=STEPMOM DREAM, longitud=48)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=846, nombre=STING PERSONAL, longitud=93)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=848, nombre=STONE FIRE, longitud=94)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=849, nombre=STORM HAPPINESS, longitud=57)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=856, nombre=STREETCAR INTENTIONS, longitud=73)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=860, nombre=SUICIDES SILENCE, longitud=93)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=862, nombre=SUMMER SCARFACE, longitud=53)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=864, nombre=SUNDANCE INVASION, longitud=92)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=866, nombre=SUNSET RACER, longitud=48)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=867, nombre=SUPER WYOMING, longitud=58)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=869, nombre=SUSPECTS QUILLS, longitud=47)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=876, nombre=TARZAN VIDEOTAPE, longitud=91)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=877, nombre=TAXI KICK, longitud=64)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=878, nombre=TEEN APOLLO, longitud=74)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=881, nombre=TEMPLE ATTRACTION, longitud=71)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=882, nombre=TENENBAUMS COMMAND, longitud=99)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=883, nombre=TEQUILA PAST, longitud=53)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=884, nombre=TERMINATOR CLUB, longitud=88)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=888, nombre=THIN SAGEBRUSH, longitud=53)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=891, nombre=TIMBERLAND SKY, longitud=69)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=893, nombre=TITANS JERK, longitud=91)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=894, nombre=TOMATOES HELLFIGHTERS, longitud=68)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=904, nombre=TRAIN BUNCH, longitud=71)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=910, nombre=TREATMENT JEKYLL, longitud=87)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=911, nombre=TRIP NEWTON, longitud=64)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=912, nombre=TROJAN TOMORROW, longitud=52)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=914, nombre=TROUBLE DATE, longitud=61)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=915, nombre=TRUMAN CRAZY, longitud=92)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=916, nombre=TURN STAR, longitud=80)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=919, nombre=TYCOON GATHERING, longitud=82)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=920, nombre=UNBREAKABLE KARATE, longitud=62)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=923, nombre=UNFAITHFUL KILL, longitud=78)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=928, nombre=UPTOWN YOUNG, longitud=84)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=931, nombre=VALENTINE VANISHING, longitud=48)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=932, nombre=VALLEY PACKER, longitud=73)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=937, nombre=VARSITY TRIP, longitud=85)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=939, nombre=VERTIGO NORTHWEST, longitud=90)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=940, nombre=VICTORY ACADEMY, longitud=64)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=943, nombre=VILLAIN DESPERATE, longitud=76)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=947, nombre=VISION TORQUE, longitud=59)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=951, nombre=VOYAGE LEGALLY, longitud=78)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=954, nombre=WAKE JAWS, longitud=73)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=957, nombre=WAR NOTTING, longitud=80)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=959, nombre=WARLOCK WEREWOLF, longitud=83)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=962, nombre=WASTELAND DIVINE, longitud=85)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=963, nombre=WATCH TRACY, longitud=78)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=964, nombre=WATERFRONT DELIVERANCE, longitud=61)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=966, nombre=WEDDING APOLLO, longitud=70)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=968, nombre=WEREWOLF LOLA, longitud=79)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=970, nombre=WESTWARD SEABISCUIT, longitud=52)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=972, nombre=WHISPERER GIANT, longitud=59)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=977, nombre=WINDOW SIDE, longitud=85)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=978, nombre=WISDOM WORKER, longitud=98)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=980, nombre=WIZARD COLDBLOODED, longitud=75)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=981, nombre=WOLVES DESIRE, longitud=55)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=986, nombre=WONKA SEA, longitud=85)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=989, nombre=WORKING MICROCOSMOS, longitud=74)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=995, nombre=YENTL IDAHO, longitud=86)
+
+2024-10-29 20:45:51 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=1000, nombre=ZORRO ARK, longitud=50)
+
+2024-10-29 20:45:51 INFO  [main] e.e.services.PeliculasService - Se ha generado el fichero con un total de 378
+2024-10-29 20:47:41 INFO  [main] e.e.services.PeliculasService - peliculaPruebaCsv
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=1, nombre=ACADEMY DINOSAUR, longitud=86)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=2, nombre=ACE GOLDFINGER, longitud=48)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=3, nombre=ADAPTATION HOLES, longitud=50)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=7, nombre=AIRPLANE SIERRA, longitud=62)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=8, nombre=AIRPORT POLLOCK, longitud=54)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=10, nombre=ALADDIN CALENDAR, longitud=63)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=14, nombre=ALICE FANTASIA, longitud=94)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=15, nombre=ALIEN CENTER, longitud=46)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=17, nombre=ALONE TRIP, longitud=82)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=18, nombre=ALTER VICTORY, longitud=57)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=20, nombre=AMELIE HELLFIGHTERS, longitud=79)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=22, nombre=AMISTAD MIDSUMMER, longitud=85)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=23, nombre=ANACONDA CONFESSIONS, longitud=92)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=25, nombre=ANGELS LIFE, longitud=74)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=26, nombre=ANNIE IDENTITY, longitud=86)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=28, nombre=ANTHEM LUKE, longitud=91)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=30, nombre=ANYTHING SAVANNAH, longitud=82)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=31, nombre=APACHE DIVINE, longitud=92)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=34, nombre=ARABIA DOGMA, longitud=62)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=38, nombre=ARK RIDGEMONT, longitud=68)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=39, nombre=ARMAGEDDON LOST, longitud=99)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=45, nombre=ATTRACTION NEWTON, longitud=83)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=51, nombre=BALLOON HOMEWARD, longitud=75)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=53, nombre=BANG KWAI, longitud=87)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=55, nombre=BARBARELLA STREETCAR, longitud=65)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=57, nombre=BASIC EASY, longitud=90)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=60, nombre=BEAST HUNCHBACK, longitud=89)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=63, nombre=BEDAZZLED MARRIED, longitud=73)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=66, nombre=BENEATH RUSH, longitud=53)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=67, nombre=BERETS AGENT, longitud=77)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=69, nombre=BEVERLY OUTLAW, longitud=85)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=72, nombre=BILL OTHERS, longitud=93)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=77, nombre=BIRDS PERDITION, longitud=61)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=78, nombre=BLACKOUT PRIVATE, longitud=85)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=82, nombre=BLOOD ARGONAUTS, longitud=71)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=83, nombre=BLUES INSTINCT, longitud=50)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=85, nombre=BONNIE HOLOCAUST, longitud=63)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=87, nombre=BOONDOCK BALLROOM, longitud=76)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=89, nombre=BORROWERS BEDAZZLED, longitud=63)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=90, nombre=BOULEVARD MOB, longitud=63)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=91, nombre=BOUND CHEAPER, longitud=98)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=92, nombre=BOWFINGER GABLES, longitud=72)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=97, nombre=BRIDE INTRIGUE, longitud=56)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=98, nombre=BRIGHT ENCOUNTERS, longitud=73)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=101, nombre=BROTHERHOOD BLANKET, longitud=73)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=102, nombre=BUBBLE GROSSE, longitud=60)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=106, nombre=BULWORTH COMMANDMENTS, longitud=61)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=107, nombre=BUNCH MINDS, longitud=63)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=108, nombre=BUTCH PANTHER, longitud=67)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=109, nombre=BUTTERFLY CHOCOLAT, longitud=89)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=110, nombre=CABIN FLASH, longitud=53)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=111, nombre=CADDYSHACK JEDI, longitud=52)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=113, nombre=CALIFORNIA BIRDS, longitud=75)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=114, nombre=CAMELOT VACATION, longitud=61)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=116, nombre=CANDIDATE PERDITION, longitud=70)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=118, nombre=CANYON STOCK, longitud=85)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=120, nombre=CARIBBEAN LIBERTY, longitud=92)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=123, nombre=CASABLANCA SUPER, longitud=85)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=125, nombre=CASSIDY WYOMING, longitud=61)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=134, nombre=CHAMPION FLATLINERS, longitud=51)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=135, nombre=CHANCE RESURRECTION, longitud=70)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=137, nombre=CHARADE DUFFEL, longitud=66)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=138, nombre=CHARIOTS CONSPIRACY, longitud=71)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=140, nombre=CHEAPER CLYDE, longitud=87)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=144, nombre=CHINATOWN GLADIATOR, longitud=61)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=152, nombre=CIRCUS YOUTH, longitud=90)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=154, nombre=CLASH FREDDY, longitud=81)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=159, nombre=CLOSER BANG, longitud=58)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=160, nombre=CLUB GRAFFITI, longitud=65)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=161, nombre=CLUE GRAIL, longitud=70)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=162, nombre=CLUELESS BUCKET, longitud=95)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=164, nombre=COAST RAINBOW, longitud=55)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=165, nombre=COLDBLOODED DARLING, longitud=70)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=168, nombre=COMANCHEROS ENEMY, longitud=67)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=169, nombre=COMFORTS RUSH, longitud=76)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=171, nombre=COMMANDMENTS EXPRESS, longitud=59)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=173, nombre=CONFESSIONS MAGUIRE, longitud=65)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=176, nombre=CONGENIALITY QUEST, longitud=87)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=184, nombre=CORE SUIT, longitud=92)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=186, nombre=CRAFT OUTFIELD, longitud=64)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=187, nombre=CRANES RESERVOIR, longitud=57)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=192, nombre=CROSSING DIVORCE, longitud=50)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=196, nombre=CRUELTY UNFORGIVEN, longitud=69)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=199, nombre=CUPBOARD SINNERS, longitud=56)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=203, nombre=DAISY MENAGERIE, longitud=84)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=205, nombre=DANCES NONE, longitud=58)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=208, nombre=DARES PLUTO, longitud=89)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=209, nombre=DARKNESS WAR, longitud=99)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=214, nombre=DAUGHTER MADIGAN, longitud=59)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=215, nombre=DAWN POND, longitud=57)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=219, nombre=DEEP CRUSADE, longitud=51)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=222, nombre=DESERT POSEIDON, longitud=64)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=223, nombre=DESIRE ALIEN, longitud=76)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=224, nombre=DESPERATE TRAINSPOTTING, longitud=81)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=225, nombre=DESTINATION JERK, longitud=76)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=226, nombre=DESTINY SATURDAY, longitud=56)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=227, nombre=DETAILS PACKER, longitud=88)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=229, nombre=DEVIL DESIRE, longitud=87)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=231, nombre=DINOSAUR SECRETARY, longitud=63)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=234, nombre=DISTURBING SCARFACE, longitud=94)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=235, nombre=DIVIDE MONSTER, longitud=68)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=237, nombre=DIVORCE SHINING, longitud=47)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=238, nombre=DOCTOR GRAIL, longitud=57)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=242, nombre=DOOM DANCING, longitud=68)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=243, nombre=DOORS PRESIDENT, longitud=49)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=247, nombre=DOWNHILL ENOUGH, longitud=47)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=253, nombre=DRIFTER COMMANDMENTS, longitud=61)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=258, nombre=DRUMS DYNAMITE, longitud=96)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=268, nombre=EARLY HOME, longitud=96)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=269, nombre=EARRING INSTINCT, longitud=98)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=270, nombre=EARTH VISION, longitud=85)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=274, nombre=EGG IGBY, longitud=67)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=275, nombre=EGYPT TENENBAUMS, longitud=85)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=282, nombre=ENCOUNTERS CURTAIN, longitud=92)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=283, nombre=ENDING CROWDS, longitud=85)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=284, nombre=ENEMY ODDS, longitud=77)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=285, nombre=ENGLISH BULWORTH, longitud=51)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=289, nombre=EVE RESURRECTION, longitud=66)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=292, nombre=EXCITEMENT EVE, longitud=51)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=295, nombre=EXPENDABLE STALLION, longitud=97)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=303, nombre=FANTASY TROOPERS, longitud=58)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=305, nombre=FATAL HAUNTED, longitud=91)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=307, nombre=FELLOWSHIP AUTUMN, longitud=77)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=309, nombre=FEUD FROGMEN, longitud=98)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=311, nombre=FICTION CHRISTMAS, longitud=72)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=312, nombre=FIDDLER LOST, longitud=75)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=314, nombre=FIGHT JAWBREAKER, longitud=91)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=320, nombre=FLAMINGOS CONNECTICUT, longitud=80)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=326, nombre=FLYING HOOK, longitud=69)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=329, nombre=FORREST SONS, longitud=63)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=331, nombre=FORWARD TEMPLE, longitud=90)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=334, nombre=FREDDY STORM, longitud=65)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=336, nombre=FRENCH HOLIDAY, longitud=99)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=337, nombre=FRIDA SLIPPER, longitud=73)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=338, nombre=FRISCO FORREST, longitud=51)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=341, nombre=FROST HEAD, longitud=82)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=342, nombre=FUGITIVE MAGUIRE, longitud=83)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=343, nombre=FULL FLATLINERS, longitud=94)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=348, nombre=GANDHI KWAI, longitud=86)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=350, nombre=GARDEN ISLAND, longitud=80)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=354, nombre=GHOST GROUNDHOG, longitud=85)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=361, nombre=GLEAMING JAWBREAKER, longitud=89)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=363, nombre=GO PURPLE, longitud=54)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=364, nombre=GODFATHER DIARY, longitud=73)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=366, nombre=GOLDFINGER SENSIBILITY, longitud=93)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=368, nombre=GONE TROUBLE, longitud=84)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=369, nombre=GOODFELLAS SALUTE, longitud=56)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=375, nombre=GRAIL FRANKENSTEIN, longitud=85)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=378, nombre=GREATEST NORTH, longitud=93)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=384, nombre=GROSSE WONDERFUL, longitud=49)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=386, nombre=GUMP DATE, longitud=53)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=388, nombre=GUNFIGHT MOON, longitud=70)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=390, nombre=GUYS FALCON, longitud=84)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=392, nombre=HALL CASSIDY, longitud=51)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=393, nombre=HALLOWEEN NUTS, longitud=47)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=396, nombre=HANGING DEEP, longitud=62)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=398, nombre=HANOVER GALAXY, longitud=47)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=400, nombre=HARDLY ROBBERS, longitud=72)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=402, nombre=HARPER DYING, longitud=52)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=405, nombre=HAUNTED ANTITRUST, longitud=76)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=407, nombre=HAWK CHILL, longitud=47)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=408, nombre=HEAD STRANGER, longitud=69)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=409, nombre=HEARTBREAKERS BRIGHT, longitud=59)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=410, nombre=HEAVEN FREEDOM, longitud=48)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=411, nombre=HEAVENLY GUN, longitud=49)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=414, nombre=HELLFIGHTERS SIERRA, longitud=75)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=415, nombre=HIGH ENCINO, longitud=84)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=417, nombre=HILLS NEIGHBORS, longitud=93)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=421, nombre=HOLIDAY GAMES, longitud=78)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=423, nombre=HOLLYWOOD ANONYMOUS, longitud=69)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=425, nombre=HOLY TADPOLE, longitud=88)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=429, nombre=HONEY TIES, longitud=84)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=430, nombre=HOOK CHARIOTS, longitud=49)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=433, nombre=HORN WORKING, longitud=95)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=438, nombre=HUMAN GRAFFITI, longitud=68)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=442, nombre=HUNTING MUSKETEERS, longitud=65)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=443, nombre=HURRICANE AFFAIR, longitud=49)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=444, nombre=HUSTLER PARTY, longitud=83)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=450, nombre=IDOLS SNATCHERS, longitud=84)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=459, nombre=INFORMER DOUBLE, longitud=74)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=462, nombre=INSIDER ARIZONA, longitud=78)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=465, nombre=INTERVIEW LIAISONS, longitud=59)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=466, nombre=INTOLERABLE INTENTIONS, longitud=63)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=468, nombre=INVASION CYCLONE, longitud=97)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=469, nombre=IRON MOON, longitud=46)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=470, nombre=ISHTAR ROCKETEER, longitud=79)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=471, nombre=ISLAND EXORCIST, longitud=84)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=480, nombre=JEEPERS WEDDING, longitud=84)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=481, nombre=JEKYLL FROGMEN, longitud=58)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=485, nombre=JERSEY SASSY, longitud=60)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=486, nombre=JET NEIGHBORS, longitud=59)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=489, nombre=JUGGLER HARDLY, longitud=54)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=491, nombre=JUMPING WRATH, longitud=74)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=493, nombre=KANE EXORCIST, longitud=92)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=497, nombre=KILL BROTHERHOOD, longitud=54)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=502, nombre=KNOCK WARLOCK, longitud=71)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=504, nombre=KWAI HOMEWARD, longitud=46)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=505, nombre=LABYRINTH LEAGUE, longitud=46)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=506, nombre=LADY STAGE, longitud=67)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=509, nombre=LANGUAGE COWBOY, longitud=78)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=514, nombre=LEBOWSKI SOLDIERS, longitud=69)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=516, nombre=LEGEND JEDI, longitud=59)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=520, nombre=LICENSE WEEKEND, longitud=91)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=524, nombre=LION UNCUT, longitud=50)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=527, nombre=LOLA AGENT, longitud=85)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=529, nombre=LONELY ELEPHANT, longitud=67)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=532, nombre=LOSER HUSTLER, longitud=80)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=533, nombre=LOST BIRD, longitud=98)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=534, nombre=LOUISIANA HARRY, longitud=70)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=536, nombre=LOVELY JINGLE, longitud=65)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=537, nombre=LOVER TRUMAN, longitud=75)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=540, nombre=LUCKY FLYING, longitud=97)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=541, nombre=LUKE MUMMY, longitud=74)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=542, nombre=LUST LOCK, longitud=52)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=546, nombre=MADRE GABLES, longitud=98)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=548, nombre=MAGNIFICENT CHITTY, longitud=53)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=550, nombre=MAGUIRE APACHE, longitud=74)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=558, nombre=MANNEQUIN WORST, longitud=71)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=560, nombre=MARS ROMAN, longitud=62)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=565, nombre=MATRIX SNOWMAN, longitud=56)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=566, nombre=MAUDE MOD, longitud=72)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=567, nombre=MEET CHOCOLATE, longitud=80)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=568, nombre=MEMENTO ZOOLANDER, longitud=77)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=572, nombre=METROPOLIS COMA, longitud=64)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=574, nombre=MIDNIGHT WESTWARD, longitud=86)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=575, nombre=MIDSUMMER GROUNDHOG, longitud=48)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=577, nombre=MILE MULAN, longitud=64)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=581, nombre=MINORITY KISS, longitud=59)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=586, nombre=MOCKINGBIRD HOLLYWOOD, longitud=60)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=587, nombre=MOD SECRETARY, longitud=77)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=589, nombre=MODERN DORADO, longitud=74)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=595, nombre=MOON BUNCH, longitud=83)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=598, nombre=MOSQUITO ARMAGEDDON, longitud=57)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=601, nombre=MOULIN WAKE, longitud=79)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=603, nombre=MOVIE SHAKESPEARE, longitud=53)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=607, nombre=MUPPET MILE, longitud=50)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=611, nombre=MUSKETEERS WAIT, longitud=73)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=613, nombre=MYSTIC TRUMAN, longitud=92)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=616, nombre=NATIONAL STORY, longitud=92)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=617, nombre=NATURAL STOCK, longitud=50)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=621, nombre=NETWORK PEAK, longitud=75)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=623, nombre=NEWTON LABYRINTH, longitud=75)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=625, nombre=NONE SPIKING, longitud=83)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=626, nombre=NOON PAPI, longitud=57)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=627, nombre=NORTH TEQUILA, longitud=67)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=630, nombre=NOTTING SPEAKEASY, longitud=48)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=631, nombre=NOVOCAINE FLIGHT, longitud=64)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=633, nombre=OCTOBER SUBMARINE, longitud=54)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=634, nombre=ODDS BOOGIE, longitud=48)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=635, nombre=OKLAHOMA JUMANJI, longitud=58)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=639, nombre=OPPOSITE NECKLACE, longitud=92)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=641, nombre=ORANGE GRAPES, longitud=76)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=649, nombre=OZ LIAISONS, longitud=85)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=651, nombre=PACKER MADIGAN, longitud=84)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=654, nombre=PANKY SUBMARINE, longitud=93)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=657, nombre=PARADISE SABRINA, longitud=48)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=663, nombre=PATIENT SISTER, longitud=99)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=664, nombre=PATRIOT ROMAN, longitud=65)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=668, nombre=PEAK FOREVER, longitud=80)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=669, nombre=PEARL DESTINY, longitud=74)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=670, nombre=PELICAN COMFORTS, longitud=48)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=671, nombre=PERDITION FARGO, longitud=99)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=672, nombre=PERFECT GROOVE, longitud=82)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=674, nombre=PET HAUNTING, longitud=99)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=675, nombre=PHANTOM GLORY, longitud=60)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=678, nombre=PICKUP DRIVING, longitud=77)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=679, nombre=PILOT HOOSIERS, longitud=50)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=683, nombre=PITY BOUND, longitud=60)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=686, nombre=PLUTO OLEANDER, longitud=84)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=688, nombre=POLISH BROOKLYN, longitud=61)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=694, nombre=PREJUDICE OLEANDER, longitud=98)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=697, nombre=PRIMARY GLASS, longitud=53)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=698, nombre=PRINCESS GIANT, longitud=71)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=702, nombre=PULP BEVERLY, longitud=89)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=705, nombre=PURPLE MOVIE, longitud=88)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=712, nombre=RAIDERS ANTITRUST, longitud=82)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=713, nombre=RAINBOW SHOCK, longitud=74)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=714, nombre=RANDOM GO, longitud=73)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=717, nombre=REAR TRADING, longitud=97)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=718, nombre=REBEL AIRPORT, longitud=73)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=723, nombre=REIGN GENTLEMEN, longitud=82)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=726, nombre=RESERVOIR ADAPTATION, longitud=61)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=728, nombre=REUNION WITCHES, longitud=63)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=730, nombre=RIDGEMONT SUBMARINE, longitud=46)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=732, nombre=RINGS HEARTBREAKERS, longitud=58)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=741, nombre=ROMAN PUNK, longitud=81)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=743, nombre=ROOM ROMAN, longitud=60)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=744, nombre=ROOTS REMEMBER, longitud=89)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=753, nombre=RUSH GOODFELLAS, longitud=48)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=755, nombre=SABRINA MIDNIGHT, longitud=99)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=756, nombre=SADDLE ANTITRUST, longitud=80)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=759, nombre=SALUTE APOLLO, longitud=73)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=763, nombre=SATISFACTION CONFIDENTIAL, longitud=75)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=766, nombre=SAVANNAH TOWN, longitud=84)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=772, nombre=SEA VIRGIN, longitud=80)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=776, nombre=SECRET GROUNDHOG, longitud=90)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=779, nombre=SENSE GREEK, longitud=54)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=780, nombre=SENSIBILITY REAR, longitud=98)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=782, nombre=SHAKESPEARE SADDLE, longitud=60)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=783, nombre=SHANE DARKNESS, longitud=93)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=784, nombre=SHANGHAI TYCOON, longitud=47)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=785, nombre=SHAWSHANK BUBBLE, longitud=80)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=789, nombre=SHOCK CABIN, longitud=79)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=790, nombre=SHOOTIST SUPERFLY, longitud=67)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=794, nombre=SIDE ARK, longitud=52)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=797, nombre=SILENCE KANE, longitud=67)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=798, nombre=SILVERADO GOLDFINGER, longitud=74)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=799, nombre=SIMON NORTH, longitud=51)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=805, nombre=SLEEPLESS MONSOON, longitud=64)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=807, nombre=SLEUTH ORIENT, longitud=87)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=808, nombre=SLING LUKE, longitud=84)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=811, nombre=SMILE EARRING, longitud=60)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=812, nombre=SMOKING BARBARELLA, longitud=50)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=815, nombre=SNATCHERS MONTEZUMA, longitud=74)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=816, nombre=SNOWMAN ROLLERCOASTER, longitud=62)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=824, nombre=SPARTACUS CHEAPER, longitud=52)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=828, nombre=SPIKING ELEMENT, longitud=79)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=837, nombre=STAGE WORLD, longitud=85)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=840, nombre=STAMPEDE DISTURBING, longitud=75)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=845, nombre=STEPMOM DREAM, longitud=48)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=846, nombre=STING PERSONAL, longitud=93)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=848, nombre=STONE FIRE, longitud=94)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=849, nombre=STORM HAPPINESS, longitud=57)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=856, nombre=STREETCAR INTENTIONS, longitud=73)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=860, nombre=SUICIDES SILENCE, longitud=93)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=862, nombre=SUMMER SCARFACE, longitud=53)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=864, nombre=SUNDANCE INVASION, longitud=92)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=866, nombre=SUNSET RACER, longitud=48)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=867, nombre=SUPER WYOMING, longitud=58)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=869, nombre=SUSPECTS QUILLS, longitud=47)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=876, nombre=TARZAN VIDEOTAPE, longitud=91)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=877, nombre=TAXI KICK, longitud=64)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=878, nombre=TEEN APOLLO, longitud=74)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=881, nombre=TEMPLE ATTRACTION, longitud=71)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=882, nombre=TENENBAUMS COMMAND, longitud=99)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=883, nombre=TEQUILA PAST, longitud=53)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=884, nombre=TERMINATOR CLUB, longitud=88)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=888, nombre=THIN SAGEBRUSH, longitud=53)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=891, nombre=TIMBERLAND SKY, longitud=69)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=893, nombre=TITANS JERK, longitud=91)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=894, nombre=TOMATOES HELLFIGHTERS, longitud=68)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=904, nombre=TRAIN BUNCH, longitud=71)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=910, nombre=TREATMENT JEKYLL, longitud=87)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=911, nombre=TRIP NEWTON, longitud=64)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=912, nombre=TROJAN TOMORROW, longitud=52)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=914, nombre=TROUBLE DATE, longitud=61)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=915, nombre=TRUMAN CRAZY, longitud=92)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=916, nombre=TURN STAR, longitud=80)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=919, nombre=TYCOON GATHERING, longitud=82)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=920, nombre=UNBREAKABLE KARATE, longitud=62)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=923, nombre=UNFAITHFUL KILL, longitud=78)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=928, nombre=UPTOWN YOUNG, longitud=84)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=931, nombre=VALENTINE VANISHING, longitud=48)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=932, nombre=VALLEY PACKER, longitud=73)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=937, nombre=VARSITY TRIP, longitud=85)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=939, nombre=VERTIGO NORTHWEST, longitud=90)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=940, nombre=VICTORY ACADEMY, longitud=64)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=943, nombre=VILLAIN DESPERATE, longitud=76)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=947, nombre=VISION TORQUE, longitud=59)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=951, nombre=VOYAGE LEGALLY, longitud=78)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=954, nombre=WAKE JAWS, longitud=73)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=957, nombre=WAR NOTTING, longitud=80)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=959, nombre=WARLOCK WEREWOLF, longitud=83)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=962, nombre=WASTELAND DIVINE, longitud=85)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=963, nombre=WATCH TRACY, longitud=78)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=964, nombre=WATERFRONT DELIVERANCE, longitud=61)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=966, nombre=WEDDING APOLLO, longitud=70)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=968, nombre=WEREWOLF LOLA, longitud=79)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=970, nombre=WESTWARD SEABISCUIT, longitud=52)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=972, nombre=WHISPERER GIANT, longitud=59)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=977, nombre=WINDOW SIDE, longitud=85)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=978, nombre=WISDOM WORKER, longitud=98)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=980, nombre=WIZARD COLDBLOODED, longitud=75)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=981, nombre=WOLVES DESIRE, longitud=55)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=986, nombre=WONKA SEA, longitud=85)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=989, nombre=WORKING MICROCOSMOS, longitud=74)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=995, nombre=YENTL IDAHO, longitud=86)
+
+2024-10-29 20:47:42 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=1000, nombre=ZORRO ARK, longitud=50)
+
+2024-10-29 20:47:42 INFO  [main] e.e.services.PeliculasService - Se ha generado el fichero con un total de 378
+2024-10-29 20:48:14 INFO  [main] e.e.services.PeliculasService - peliculaPruebaCsv
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=1, nombre=ACADEMY DINOSAUR, longitud=86)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=2, nombre=ACE GOLDFINGER, longitud=48)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=3, nombre=ADAPTATION HOLES, longitud=50)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=7, nombre=AIRPLANE SIERRA, longitud=62)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=8, nombre=AIRPORT POLLOCK, longitud=54)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=10, nombre=ALADDIN CALENDAR, longitud=63)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=14, nombre=ALICE FANTASIA, longitud=94)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=15, nombre=ALIEN CENTER, longitud=46)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=17, nombre=ALONE TRIP, longitud=82)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=18, nombre=ALTER VICTORY, longitud=57)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=20, nombre=AMELIE HELLFIGHTERS, longitud=79)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=22, nombre=AMISTAD MIDSUMMER, longitud=85)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=23, nombre=ANACONDA CONFESSIONS, longitud=92)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=25, nombre=ANGELS LIFE, longitud=74)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=26, nombre=ANNIE IDENTITY, longitud=86)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=28, nombre=ANTHEM LUKE, longitud=91)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=30, nombre=ANYTHING SAVANNAH, longitud=82)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=31, nombre=APACHE DIVINE, longitud=92)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=34, nombre=ARABIA DOGMA, longitud=62)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=38, nombre=ARK RIDGEMONT, longitud=68)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=39, nombre=ARMAGEDDON LOST, longitud=99)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=45, nombre=ATTRACTION NEWTON, longitud=83)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=51, nombre=BALLOON HOMEWARD, longitud=75)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=53, nombre=BANG KWAI, longitud=87)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=55, nombre=BARBARELLA STREETCAR, longitud=65)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=57, nombre=BASIC EASY, longitud=90)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=60, nombre=BEAST HUNCHBACK, longitud=89)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=63, nombre=BEDAZZLED MARRIED, longitud=73)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=66, nombre=BENEATH RUSH, longitud=53)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=67, nombre=BERETS AGENT, longitud=77)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=69, nombre=BEVERLY OUTLAW, longitud=85)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=72, nombre=BILL OTHERS, longitud=93)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=77, nombre=BIRDS PERDITION, longitud=61)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=78, nombre=BLACKOUT PRIVATE, longitud=85)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=82, nombre=BLOOD ARGONAUTS, longitud=71)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=83, nombre=BLUES INSTINCT, longitud=50)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=85, nombre=BONNIE HOLOCAUST, longitud=63)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=87, nombre=BOONDOCK BALLROOM, longitud=76)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=89, nombre=BORROWERS BEDAZZLED, longitud=63)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=90, nombre=BOULEVARD MOB, longitud=63)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=91, nombre=BOUND CHEAPER, longitud=98)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=92, nombre=BOWFINGER GABLES, longitud=72)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=97, nombre=BRIDE INTRIGUE, longitud=56)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=98, nombre=BRIGHT ENCOUNTERS, longitud=73)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=101, nombre=BROTHERHOOD BLANKET, longitud=73)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=102, nombre=BUBBLE GROSSE, longitud=60)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=106, nombre=BULWORTH COMMANDMENTS, longitud=61)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=107, nombre=BUNCH MINDS, longitud=63)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=108, nombre=BUTCH PANTHER, longitud=67)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=109, nombre=BUTTERFLY CHOCOLAT, longitud=89)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=110, nombre=CABIN FLASH, longitud=53)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=111, nombre=CADDYSHACK JEDI, longitud=52)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=113, nombre=CALIFORNIA BIRDS, longitud=75)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=114, nombre=CAMELOT VACATION, longitud=61)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=116, nombre=CANDIDATE PERDITION, longitud=70)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=118, nombre=CANYON STOCK, longitud=85)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=120, nombre=CARIBBEAN LIBERTY, longitud=92)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=123, nombre=CASABLANCA SUPER, longitud=85)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=125, nombre=CASSIDY WYOMING, longitud=61)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=134, nombre=CHAMPION FLATLINERS, longitud=51)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=135, nombre=CHANCE RESURRECTION, longitud=70)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=137, nombre=CHARADE DUFFEL, longitud=66)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=138, nombre=CHARIOTS CONSPIRACY, longitud=71)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=140, nombre=CHEAPER CLYDE, longitud=87)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=144, nombre=CHINATOWN GLADIATOR, longitud=61)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=152, nombre=CIRCUS YOUTH, longitud=90)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=154, nombre=CLASH FREDDY, longitud=81)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=159, nombre=CLOSER BANG, longitud=58)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=160, nombre=CLUB GRAFFITI, longitud=65)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=161, nombre=CLUE GRAIL, longitud=70)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=162, nombre=CLUELESS BUCKET, longitud=95)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=164, nombre=COAST RAINBOW, longitud=55)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=165, nombre=COLDBLOODED DARLING, longitud=70)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=168, nombre=COMANCHEROS ENEMY, longitud=67)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=169, nombre=COMFORTS RUSH, longitud=76)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=171, nombre=COMMANDMENTS EXPRESS, longitud=59)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=173, nombre=CONFESSIONS MAGUIRE, longitud=65)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=176, nombre=CONGENIALITY QUEST, longitud=87)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=184, nombre=CORE SUIT, longitud=92)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=186, nombre=CRAFT OUTFIELD, longitud=64)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=187, nombre=CRANES RESERVOIR, longitud=57)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=192, nombre=CROSSING DIVORCE, longitud=50)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=196, nombre=CRUELTY UNFORGIVEN, longitud=69)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=199, nombre=CUPBOARD SINNERS, longitud=56)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=203, nombre=DAISY MENAGERIE, longitud=84)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=205, nombre=DANCES NONE, longitud=58)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=208, nombre=DARES PLUTO, longitud=89)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=209, nombre=DARKNESS WAR, longitud=99)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=214, nombre=DAUGHTER MADIGAN, longitud=59)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=215, nombre=DAWN POND, longitud=57)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=219, nombre=DEEP CRUSADE, longitud=51)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=222, nombre=DESERT POSEIDON, longitud=64)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=223, nombre=DESIRE ALIEN, longitud=76)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=224, nombre=DESPERATE TRAINSPOTTING, longitud=81)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=225, nombre=DESTINATION JERK, longitud=76)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=226, nombre=DESTINY SATURDAY, longitud=56)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=227, nombre=DETAILS PACKER, longitud=88)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=229, nombre=DEVIL DESIRE, longitud=87)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=231, nombre=DINOSAUR SECRETARY, longitud=63)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=234, nombre=DISTURBING SCARFACE, longitud=94)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=235, nombre=DIVIDE MONSTER, longitud=68)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=237, nombre=DIVORCE SHINING, longitud=47)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=238, nombre=DOCTOR GRAIL, longitud=57)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=242, nombre=DOOM DANCING, longitud=68)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=243, nombre=DOORS PRESIDENT, longitud=49)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=247, nombre=DOWNHILL ENOUGH, longitud=47)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=253, nombre=DRIFTER COMMANDMENTS, longitud=61)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=258, nombre=DRUMS DYNAMITE, longitud=96)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=268, nombre=EARLY HOME, longitud=96)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=269, nombre=EARRING INSTINCT, longitud=98)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=270, nombre=EARTH VISION, longitud=85)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=274, nombre=EGG IGBY, longitud=67)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=275, nombre=EGYPT TENENBAUMS, longitud=85)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=282, nombre=ENCOUNTERS CURTAIN, longitud=92)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=283, nombre=ENDING CROWDS, longitud=85)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=284, nombre=ENEMY ODDS, longitud=77)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=285, nombre=ENGLISH BULWORTH, longitud=51)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=289, nombre=EVE RESURRECTION, longitud=66)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=292, nombre=EXCITEMENT EVE, longitud=51)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=295, nombre=EXPENDABLE STALLION, longitud=97)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=303, nombre=FANTASY TROOPERS, longitud=58)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=305, nombre=FATAL HAUNTED, longitud=91)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=307, nombre=FELLOWSHIP AUTUMN, longitud=77)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=309, nombre=FEUD FROGMEN, longitud=98)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=311, nombre=FICTION CHRISTMAS, longitud=72)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=312, nombre=FIDDLER LOST, longitud=75)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=314, nombre=FIGHT JAWBREAKER, longitud=91)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=320, nombre=FLAMINGOS CONNECTICUT, longitud=80)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=326, nombre=FLYING HOOK, longitud=69)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=329, nombre=FORREST SONS, longitud=63)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=331, nombre=FORWARD TEMPLE, longitud=90)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=334, nombre=FREDDY STORM, longitud=65)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=336, nombre=FRENCH HOLIDAY, longitud=99)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=337, nombre=FRIDA SLIPPER, longitud=73)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=338, nombre=FRISCO FORREST, longitud=51)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=341, nombre=FROST HEAD, longitud=82)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=342, nombre=FUGITIVE MAGUIRE, longitud=83)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=343, nombre=FULL FLATLINERS, longitud=94)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=348, nombre=GANDHI KWAI, longitud=86)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=350, nombre=GARDEN ISLAND, longitud=80)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=354, nombre=GHOST GROUNDHOG, longitud=85)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=361, nombre=GLEAMING JAWBREAKER, longitud=89)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=363, nombre=GO PURPLE, longitud=54)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=364, nombre=GODFATHER DIARY, longitud=73)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=366, nombre=GOLDFINGER SENSIBILITY, longitud=93)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=368, nombre=GONE TROUBLE, longitud=84)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=369, nombre=GOODFELLAS SALUTE, longitud=56)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=375, nombre=GRAIL FRANKENSTEIN, longitud=85)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=378, nombre=GREATEST NORTH, longitud=93)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=384, nombre=GROSSE WONDERFUL, longitud=49)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=386, nombre=GUMP DATE, longitud=53)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=388, nombre=GUNFIGHT MOON, longitud=70)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=390, nombre=GUYS FALCON, longitud=84)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=392, nombre=HALL CASSIDY, longitud=51)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=393, nombre=HALLOWEEN NUTS, longitud=47)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=396, nombre=HANGING DEEP, longitud=62)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=398, nombre=HANOVER GALAXY, longitud=47)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=400, nombre=HARDLY ROBBERS, longitud=72)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=402, nombre=HARPER DYING, longitud=52)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=405, nombre=HAUNTED ANTITRUST, longitud=76)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=407, nombre=HAWK CHILL, longitud=47)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=408, nombre=HEAD STRANGER, longitud=69)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=409, nombre=HEARTBREAKERS BRIGHT, longitud=59)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=410, nombre=HEAVEN FREEDOM, longitud=48)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=411, nombre=HEAVENLY GUN, longitud=49)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=414, nombre=HELLFIGHTERS SIERRA, longitud=75)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=415, nombre=HIGH ENCINO, longitud=84)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=417, nombre=HILLS NEIGHBORS, longitud=93)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=421, nombre=HOLIDAY GAMES, longitud=78)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=423, nombre=HOLLYWOOD ANONYMOUS, longitud=69)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=425, nombre=HOLY TADPOLE, longitud=88)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=429, nombre=HONEY TIES, longitud=84)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=430, nombre=HOOK CHARIOTS, longitud=49)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=433, nombre=HORN WORKING, longitud=95)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=438, nombre=HUMAN GRAFFITI, longitud=68)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=442, nombre=HUNTING MUSKETEERS, longitud=65)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=443, nombre=HURRICANE AFFAIR, longitud=49)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=444, nombre=HUSTLER PARTY, longitud=83)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=450, nombre=IDOLS SNATCHERS, longitud=84)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=459, nombre=INFORMER DOUBLE, longitud=74)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=462, nombre=INSIDER ARIZONA, longitud=78)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=465, nombre=INTERVIEW LIAISONS, longitud=59)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=466, nombre=INTOLERABLE INTENTIONS, longitud=63)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=468, nombre=INVASION CYCLONE, longitud=97)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=469, nombre=IRON MOON, longitud=46)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=470, nombre=ISHTAR ROCKETEER, longitud=79)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=471, nombre=ISLAND EXORCIST, longitud=84)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=480, nombre=JEEPERS WEDDING, longitud=84)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=481, nombre=JEKYLL FROGMEN, longitud=58)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=485, nombre=JERSEY SASSY, longitud=60)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=486, nombre=JET NEIGHBORS, longitud=59)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=489, nombre=JUGGLER HARDLY, longitud=54)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=491, nombre=JUMPING WRATH, longitud=74)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=493, nombre=KANE EXORCIST, longitud=92)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=497, nombre=KILL BROTHERHOOD, longitud=54)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=502, nombre=KNOCK WARLOCK, longitud=71)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=504, nombre=KWAI HOMEWARD, longitud=46)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=505, nombre=LABYRINTH LEAGUE, longitud=46)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=506, nombre=LADY STAGE, longitud=67)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=509, nombre=LANGUAGE COWBOY, longitud=78)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=514, nombre=LEBOWSKI SOLDIERS, longitud=69)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=516, nombre=LEGEND JEDI, longitud=59)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=520, nombre=LICENSE WEEKEND, longitud=91)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=524, nombre=LION UNCUT, longitud=50)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=527, nombre=LOLA AGENT, longitud=85)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=529, nombre=LONELY ELEPHANT, longitud=67)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=532, nombre=LOSER HUSTLER, longitud=80)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=533, nombre=LOST BIRD, longitud=98)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=534, nombre=LOUISIANA HARRY, longitud=70)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=536, nombre=LOVELY JINGLE, longitud=65)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=537, nombre=LOVER TRUMAN, longitud=75)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=540, nombre=LUCKY FLYING, longitud=97)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=541, nombre=LUKE MUMMY, longitud=74)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=542, nombre=LUST LOCK, longitud=52)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=546, nombre=MADRE GABLES, longitud=98)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=548, nombre=MAGNIFICENT CHITTY, longitud=53)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=550, nombre=MAGUIRE APACHE, longitud=74)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=558, nombre=MANNEQUIN WORST, longitud=71)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=560, nombre=MARS ROMAN, longitud=62)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=565, nombre=MATRIX SNOWMAN, longitud=56)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=566, nombre=MAUDE MOD, longitud=72)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=567, nombre=MEET CHOCOLATE, longitud=80)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=568, nombre=MEMENTO ZOOLANDER, longitud=77)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=572, nombre=METROPOLIS COMA, longitud=64)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=574, nombre=MIDNIGHT WESTWARD, longitud=86)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=575, nombre=MIDSUMMER GROUNDHOG, longitud=48)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=577, nombre=MILE MULAN, longitud=64)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=581, nombre=MINORITY KISS, longitud=59)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=586, nombre=MOCKINGBIRD HOLLYWOOD, longitud=60)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=587, nombre=MOD SECRETARY, longitud=77)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=589, nombre=MODERN DORADO, longitud=74)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=595, nombre=MOON BUNCH, longitud=83)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=598, nombre=MOSQUITO ARMAGEDDON, longitud=57)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=601, nombre=MOULIN WAKE, longitud=79)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=603, nombre=MOVIE SHAKESPEARE, longitud=53)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=607, nombre=MUPPET MILE, longitud=50)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=611, nombre=MUSKETEERS WAIT, longitud=73)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=613, nombre=MYSTIC TRUMAN, longitud=92)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=616, nombre=NATIONAL STORY, longitud=92)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=617, nombre=NATURAL STOCK, longitud=50)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=621, nombre=NETWORK PEAK, longitud=75)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=623, nombre=NEWTON LABYRINTH, longitud=75)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=625, nombre=NONE SPIKING, longitud=83)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=626, nombre=NOON PAPI, longitud=57)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=627, nombre=NORTH TEQUILA, longitud=67)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=630, nombre=NOTTING SPEAKEASY, longitud=48)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=631, nombre=NOVOCAINE FLIGHT, longitud=64)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=633, nombre=OCTOBER SUBMARINE, longitud=54)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=634, nombre=ODDS BOOGIE, longitud=48)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=635, nombre=OKLAHOMA JUMANJI, longitud=58)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=639, nombre=OPPOSITE NECKLACE, longitud=92)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=641, nombre=ORANGE GRAPES, longitud=76)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=649, nombre=OZ LIAISONS, longitud=85)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=651, nombre=PACKER MADIGAN, longitud=84)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=654, nombre=PANKY SUBMARINE, longitud=93)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=657, nombre=PARADISE SABRINA, longitud=48)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=663, nombre=PATIENT SISTER, longitud=99)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=664, nombre=PATRIOT ROMAN, longitud=65)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=668, nombre=PEAK FOREVER, longitud=80)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=669, nombre=PEARL DESTINY, longitud=74)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=670, nombre=PELICAN COMFORTS, longitud=48)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=671, nombre=PERDITION FARGO, longitud=99)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=672, nombre=PERFECT GROOVE, longitud=82)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=674, nombre=PET HAUNTING, longitud=99)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=675, nombre=PHANTOM GLORY, longitud=60)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=678, nombre=PICKUP DRIVING, longitud=77)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=679, nombre=PILOT HOOSIERS, longitud=50)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=683, nombre=PITY BOUND, longitud=60)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=686, nombre=PLUTO OLEANDER, longitud=84)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=688, nombre=POLISH BROOKLYN, longitud=61)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=694, nombre=PREJUDICE OLEANDER, longitud=98)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=697, nombre=PRIMARY GLASS, longitud=53)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=698, nombre=PRINCESS GIANT, longitud=71)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=702, nombre=PULP BEVERLY, longitud=89)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=705, nombre=PURPLE MOVIE, longitud=88)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=712, nombre=RAIDERS ANTITRUST, longitud=82)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=713, nombre=RAINBOW SHOCK, longitud=74)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=714, nombre=RANDOM GO, longitud=73)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=717, nombre=REAR TRADING, longitud=97)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=718, nombre=REBEL AIRPORT, longitud=73)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=723, nombre=REIGN GENTLEMEN, longitud=82)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=726, nombre=RESERVOIR ADAPTATION, longitud=61)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=728, nombre=REUNION WITCHES, longitud=63)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=730, nombre=RIDGEMONT SUBMARINE, longitud=46)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=732, nombre=RINGS HEARTBREAKERS, longitud=58)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=741, nombre=ROMAN PUNK, longitud=81)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=743, nombre=ROOM ROMAN, longitud=60)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=744, nombre=ROOTS REMEMBER, longitud=89)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=753, nombre=RUSH GOODFELLAS, longitud=48)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=755, nombre=SABRINA MIDNIGHT, longitud=99)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=756, nombre=SADDLE ANTITRUST, longitud=80)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=759, nombre=SALUTE APOLLO, longitud=73)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=763, nombre=SATISFACTION CONFIDENTIAL, longitud=75)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=766, nombre=SAVANNAH TOWN, longitud=84)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=772, nombre=SEA VIRGIN, longitud=80)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=776, nombre=SECRET GROUNDHOG, longitud=90)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=779, nombre=SENSE GREEK, longitud=54)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=780, nombre=SENSIBILITY REAR, longitud=98)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=782, nombre=SHAKESPEARE SADDLE, longitud=60)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=783, nombre=SHANE DARKNESS, longitud=93)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=784, nombre=SHANGHAI TYCOON, longitud=47)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=785, nombre=SHAWSHANK BUBBLE, longitud=80)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=789, nombre=SHOCK CABIN, longitud=79)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=790, nombre=SHOOTIST SUPERFLY, longitud=67)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=794, nombre=SIDE ARK, longitud=52)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=797, nombre=SILENCE KANE, longitud=67)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=798, nombre=SILVERADO GOLDFINGER, longitud=74)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=799, nombre=SIMON NORTH, longitud=51)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=805, nombre=SLEEPLESS MONSOON, longitud=64)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=807, nombre=SLEUTH ORIENT, longitud=87)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=808, nombre=SLING LUKE, longitud=84)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=811, nombre=SMILE EARRING, longitud=60)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=812, nombre=SMOKING BARBARELLA, longitud=50)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=815, nombre=SNATCHERS MONTEZUMA, longitud=74)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=816, nombre=SNOWMAN ROLLERCOASTER, longitud=62)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=824, nombre=SPARTACUS CHEAPER, longitud=52)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=828, nombre=SPIKING ELEMENT, longitud=79)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=837, nombre=STAGE WORLD, longitud=85)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=840, nombre=STAMPEDE DISTURBING, longitud=75)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=845, nombre=STEPMOM DREAM, longitud=48)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=846, nombre=STING PERSONAL, longitud=93)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=848, nombre=STONE FIRE, longitud=94)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=849, nombre=STORM HAPPINESS, longitud=57)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=856, nombre=STREETCAR INTENTIONS, longitud=73)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=860, nombre=SUICIDES SILENCE, longitud=93)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=862, nombre=SUMMER SCARFACE, longitud=53)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=864, nombre=SUNDANCE INVASION, longitud=92)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=866, nombre=SUNSET RACER, longitud=48)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=867, nombre=SUPER WYOMING, longitud=58)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=869, nombre=SUSPECTS QUILLS, longitud=47)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=876, nombre=TARZAN VIDEOTAPE, longitud=91)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=877, nombre=TAXI KICK, longitud=64)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=878, nombre=TEEN APOLLO, longitud=74)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=881, nombre=TEMPLE ATTRACTION, longitud=71)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=882, nombre=TENENBAUMS COMMAND, longitud=99)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=883, nombre=TEQUILA PAST, longitud=53)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=884, nombre=TERMINATOR CLUB, longitud=88)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=888, nombre=THIN SAGEBRUSH, longitud=53)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=891, nombre=TIMBERLAND SKY, longitud=69)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=893, nombre=TITANS JERK, longitud=91)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=894, nombre=TOMATOES HELLFIGHTERS, longitud=68)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=904, nombre=TRAIN BUNCH, longitud=71)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=910, nombre=TREATMENT JEKYLL, longitud=87)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=911, nombre=TRIP NEWTON, longitud=64)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=912, nombre=TROJAN TOMORROW, longitud=52)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=914, nombre=TROUBLE DATE, longitud=61)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=915, nombre=TRUMAN CRAZY, longitud=92)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=916, nombre=TURN STAR, longitud=80)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=919, nombre=TYCOON GATHERING, longitud=82)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=920, nombre=UNBREAKABLE KARATE, longitud=62)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=923, nombre=UNFAITHFUL KILL, longitud=78)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=928, nombre=UPTOWN YOUNG, longitud=84)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=931, nombre=VALENTINE VANISHING, longitud=48)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=932, nombre=VALLEY PACKER, longitud=73)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=937, nombre=VARSITY TRIP, longitud=85)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=939, nombre=VERTIGO NORTHWEST, longitud=90)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=940, nombre=VICTORY ACADEMY, longitud=64)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=943, nombre=VILLAIN DESPERATE, longitud=76)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=947, nombre=VISION TORQUE, longitud=59)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=951, nombre=VOYAGE LEGALLY, longitud=78)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=954, nombre=WAKE JAWS, longitud=73)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=957, nombre=WAR NOTTING, longitud=80)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=959, nombre=WARLOCK WEREWOLF, longitud=83)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=962, nombre=WASTELAND DIVINE, longitud=85)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=963, nombre=WATCH TRACY, longitud=78)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=964, nombre=WATERFRONT DELIVERANCE, longitud=61)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=966, nombre=WEDDING APOLLO, longitud=70)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=968, nombre=WEREWOLF LOLA, longitud=79)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=970, nombre=WESTWARD SEABISCUIT, longitud=52)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=972, nombre=WHISPERER GIANT, longitud=59)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=977, nombre=WINDOW SIDE, longitud=85)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=978, nombre=WISDOM WORKER, longitud=98)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=980, nombre=WIZARD COLDBLOODED, longitud=75)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=981, nombre=WOLVES DESIRE, longitud=55)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=986, nombre=WONKA SEA, longitud=85)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=989, nombre=WORKING MICROCOSMOS, longitud=74)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=995, nombre=YENTL IDAHO, longitud=86)
+
+2024-10-29 20:48:14 DEBUG [main] e.e.services.PeliculasService - Pelicula(id=1000, nombre=ZORRO ARK, longitud=50)
+
+2024-10-29 20:48:14 INFO  [main] e.e.services.PeliculasService - Se ha generado el fichero con un total de 378
