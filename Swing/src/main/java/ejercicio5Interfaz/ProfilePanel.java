@@ -1,31 +1,27 @@
 package ejercicio5Interfaz;
 
-import javax.swing.JPanel;
-
-import ejercicios.ejercicio05.model.User;
-
-import javax.swing.JLabel;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
+import javax.swing.JFileChooser;
+import javax.swing.JLabel;
 
-public class ProfilePanel extends JPanel {
+import ejercicios.ejercicio05.model.User;
+
+public class ProfilePanel extends View {
 
 	private static final long serialVersionUID = 1L;
-	private AppController app;
-	private User user;
 
 	/**
 	 * Create the panel.
 	 */
-	public ProfilePanel(AppController app,User user) {
-		this.app = app;
-		this.user = user;
+	public ProfilePanel(AppController app, User user) {
+		super(app);
 		setLayout(null);
-
-		JLabel lblTitulo = new JLabel("BIENVENIDO OTRA VEZ" + user.getUsername());
+		
+		JLabel lblTitulo = new JLabel("BIENVENIDO  " + app.getUser().getUsername());
 		lblTitulo.setFont(new Font("Comic Sans MS", Font.BOLD | Font.ITALIC, 15));
 		lblTitulo.setBounds(77, 137, 343, 14);
 		add(lblTitulo);
@@ -41,6 +37,18 @@ public class ProfilePanel extends JPanel {
 		JButton btnChangePass = new JButton("Cambiar Contraseña");
 		btnChangePass.setBounds(268, 165, 152, 23);
 		add(btnChangePass);
+		JFileChooser fileChooser = new JFileChooser();
+		fileChooser.setDialogTitle("Selecciona un csv");
+		
+		
+		JButton btnImportarUsuarios = new JButton("Importar usuarios");
+		btnImportarUsuarios.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				app.openFileChooser();
+			}
+		});
+		btnImportarUsuarios.setBounds(113, 233, 218, 23);
+		add(btnImportarUsuarios);
 
 		btnSalir.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {

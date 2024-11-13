@@ -1,33 +1,28 @@
 package ejercicio5Interfaz;
 
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-
-import ejercicios.ejercicio05.model.User;
-
-import javax.swing.JLabel;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
+import javax.swing.JLabel;
 import javax.swing.JPasswordField;
+import javax.swing.JTextField;
 
-public class ChangePassPanel extends JPanel {
+import ejercicios.ejercicio05.model.User;
+
+public class ChangePassPanel extends View {
 
 	private static final long serialVersionUID = 1L;
 	private JTextField tfIdUsuario;
-	private AppController app;
 	private JPasswordField pfOldPass;
 	private JPasswordField pfNewPass;
-	private User user;
 
 	/**
 	 * Create the panel.
 	 */
 	public ChangePassPanel(AppController app,User user) {
-		this.app = app;
-		this.user =user;
+		super(app);
 		setLayout(null);
 
 		tfIdUsuario = new JTextField();
@@ -77,6 +72,9 @@ public class ChangePassPanel extends JPanel {
 		});
 		btnAtras.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				tfIdUsuario.setText("");
+				pfOldPass.setText("");
+				pfNewPass.setText("");
 				app.abrirProfile(user);
 			}
 		});

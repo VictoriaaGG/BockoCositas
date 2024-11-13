@@ -9,5 +9,10 @@
 	<artifactId>EjerciciosTema1</artifactId>
 	<version>1.0.0</version>
   </dependency>
+  <dependency>
+  	<groupId>ceu.dam.tema2</groupId>
+  	<artifactId>ejerciciosTema2Mio</artifactId>
+  	<version>1.0.0</version>
+  </dependency>
   </dependencies>
 </project>

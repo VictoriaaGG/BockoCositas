@@ -23,8 +23,7 @@ public class Ejercicio02Service {
 
 	public void importarUsuarioCSV(String nombreFichero) throws CsvException {
 		log.info(nombreFichero);
-		File file = new File(
-				"c:/Users/vgordillo7875/Desktop/bockocositas/acceso_datos_csv/ejercicio2/" + nombreFichero);
+		File file = new File(nombreFichero);
 
 		String linea;
 		int conMal = 0;

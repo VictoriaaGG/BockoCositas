@@ -1,10 +1,14 @@
 package ejercicio5Interfaz;
 
 import java.awt.EventQueue;
+import java.io.File;
 
+import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
+import ceu.dam.ad.ejerciciosTema3.csv.exceptions.CsvException;
+import ejercicio02.service.Ejercicio02Service;
 import ejercicios.ejercicio05.model.User;
 import ejercicios.ejercicio05.service.DuplicateUserException;
 import ejercicios.ejercicio05.service.UserException;
@@ -21,6 +25,7 @@ public class AppController {
 	private RegisterPanel register;
 	private UserServiceImpl dao;
 	private User user;
+	private Ejercicio02Service userImpl;
 
 	/**
 	 * Launch the application.
@@ -42,12 +47,13 @@ public class AppController {
 	 * Create the application.
 	 */
 	public AppController() {
-		login = new LoginPanel(this);
-		changePass = new ChangePassPanel(this,user);
-		register = new RegisterPanel(this);
 		user = new User();
+		login = new LoginPanel(this);
+		changePass = new ChangePassPanel(this, user);
+		register = new RegisterPanel(this);
 		profile = new ProfilePanel(this, user);
 		this.dao = new UserServiceImpl();
+		this.userImpl = new Ejercicio02Service();
 		initialize();
 	}
 
@@ -96,7 +102,7 @@ public class AppController {
 			JOptionPane.showMessageDialog(null, "Error logueandote", "ERROR_MESSAGE", JOptionPane.ERROR_MESSAGE);
 			e.printStackTrace();
 		}
-	
+
 	}
 
 	public void guardarUsuario(String username, String email, String contraseña) {
@@ -113,15 +119,16 @@ public class AppController {
 			JOptionPane.showMessageDialog(null, "Error logueandote", "ERROR_MESSAGE", JOptionPane.ERROR_MESSAGE);
 			e.printStackTrace();
 		}
-		this.user=u;
+		user = u;
 	}
-	
+
 	public void logearse(String login, String password) {
 		try {
-			this.user = dao.login(login, password);
+			user = dao.login(login, password);
+			System.out.println(user.toString());
 			abrirProfile(user);
 		} catch (UserNotFoundException e) {
-			JOptionPane.showMessageDialog(null, "Usua rio no encontrado", "ERROR_MESSAGE", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, "Usuario no encontrado", "ERROR_MESSAGE", JOptionPane.ERROR_MESSAGE);
 			e.printStackTrace();
 		} catch (UserException e) {
 			JOptionPane.showMessageDialog(null, "Error logueandote", "ERROR_MESSAGE", JOptionPane.ERROR_MESSAGE);
@@ -130,6 +137,31 @@ public class AppController {
 			JOptionPane.showMessageDialog(null, "Contraseña incorrecta", "ERROR_MESSAGE", JOptionPane.ERROR_MESSAGE);
 			e.printStackTrace();
 		}
-		
+
 	}
+
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
+
+	public void openFileChooser() {
+		JFileChooser fileChooser = new JFileChooser();
+		fileChooser.setDialogTitle("Selecciona un csv");
+		Integer selection = fileChooser.showOpenDialog(frame);
+
+		if (selection == JFileChooser.APPROVE_OPTION) {
+			try {
+				File fileToOpen = fileChooser.getSelectedFile();
+				userImpl.importarUsuarioCSV(fileToOpen.getAbsolutePath());
+			} catch (CsvException e) {
+				JOptionPane.showMessageDialog(null, "Error al leer el archivo", "ERROR_MESSAGE", JOptionPane.ERROR_MESSAGE);
+				e.printStackTrace();
+			}
+		}
+	}
+
 }

@@ -1,0 +1,8 @@
+2024-11-05 20:42:56 INFO  [main] e.e.service.UserServiceImpl - Se va a generar etse ficheroc:/Users/vgordillo7875/Desktop/bockocositas/acceso_datos_xml/Libros.xml
+2024-11-05 20:42:56 DEBUG [main] e.e.service.UserServiceImpl - Libro [isbn=214981838, titulo=vdklvi wfqcoesrv aidny, autores=[psjtqgldb ond, ollge frqzb], ediciones=[Edicion [año=1976, editorial=pxyz mnejfbn jzpzwlaw]]]
+2024-11-05 20:42:56 DEBUG [main] e.e.service.UserServiceImpl - Libro [isbn=605712352, titulo=eilpcg vml mpm, autores=[yhgclqdasb lhpahtee, gth ibtzpigrr], ediciones=[Edicion [año=1981, editorial=okprvmu riwpetnzam dmy], Edicion [año=1999, editorial=rxjtg szz]]]
+2024-11-05 20:42:56 DEBUG [main] e.e.service.UserServiceImpl - Libro [isbn=287329683, titulo=hbovm qpbkq, autores=[upsnd hkq], ediciones=[Edicion [año=1965, editorial=lmaoy urbh ouyyukaumc]]]
+2024-11-05 20:42:56 DEBUG [main] e.e.service.UserServiceImpl - Libro [isbn=845640597, titulo=whcb erdbyxvadz, autores=[pqmmmcxzbg enfjb], ediciones=[Edicion [año=2009, editorial=hwepuy xsw], Edicion [año=1984, editorial=kztl mhy]]]
+2024-11-05 20:42:56 DEBUG [main] e.e.service.UserServiceImpl - Libro [isbn=661601938, titulo=zdzr wvd, autores=[louxjyg waovist, oopj echrskij], ediciones=[Edicion [año=1987, editorial=utkevbkonq hrtl vrq]]]
+2024-11-05 20:42:56 DEBUG [main] e.e.service.UserServiceImpl - Libro [isbn=168568687, titulo=iwixjmvhg zefrhkir, autores=[agcowfj njeu], ediciones=[Edicion [año=2001, editorial=rxzpjv uiycqma unsbzncqq], Edicion [año=1971, editorial=rimmy oqxryp]]]
+2024-11-05 20:42:56 INFO  [main] e.e.service.UserServiceImpl - EL fichero se ha generado correctamente

@@ -1,28 +1,26 @@
 package ejercicio5Interfaz;
 
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.JLabel;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
+import javax.swing.JLabel;
 import javax.swing.JPasswordField;
+import javax.swing.JTextField;
 
-public class RegisterPanel extends JPanel {
+public class RegisterPanel extends View {
 
 	private static final long serialVersionUID = 1L;
 	private JTextField tfUser;
 	private JTextField tfEmail;
-	private AppController app;
 	private JPasswordField pfPassword;
 
 	/**
 	 * Create the panel.
 	 */
 	public RegisterPanel(AppController app) {
-		this.app = app;
+		super(app);
 		setLayout(null);
 
 		tfUser = new JTextField();
@@ -59,6 +57,10 @@ public class RegisterPanel extends JPanel {
 		pfPassword = new JPasswordField();
 		pfPassword.setBounds(256, 163, 86, 20);
 		add(pfPassword);
+		
+		JButton btnAtras = new JButton("Atrás");
+		btnAtras.setBounds(176, 215, 89, 23);
+		add(btnAtras);
 
 		btnRegistrar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -66,7 +68,11 @@ public class RegisterPanel extends JPanel {
 				app.abrirLogin();
 			}
 		});
+		btnAtras.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				app.abrirLogin();
+			}
+		});
 
 	}
-
 }

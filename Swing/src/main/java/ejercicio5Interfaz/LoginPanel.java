@@ -1,26 +1,19 @@
 package ejercicio5Interfaz;
 
-import javax.swing.JPanel;
 import javax.swing.JLabel;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.JTextField;
-
-import ejercicios.ejercicio05.service.UserException;
-import ejercicios.ejercicio05.service.UserNotFoundException;
-import ejercicios.ejercicio05.service.UserServiceImpl;
-import ejercicios.ejercicio05.service.UserUnauthorizedException;
+import ejercicio5Interfaz.components.MyTextLimitField;
 
 import javax.swing.JButton;
 import javax.swing.JPasswordField;
 
-public class LoginPanel extends JPanel {
+public class LoginPanel extends View {
 
 	private static final long serialVersionUID = 1L;
-	private JTextField tfUsuario;
-	private AppController app;
+	private MyTextLimitField tfUsuario;
 	private JPasswordField pfContraseña;
 
 	/**
@@ -28,7 +21,7 @@ public class LoginPanel extends JPanel {
 	 * 
 	 */
 	public LoginPanel(AppController app) {
-		this.app = app;
+		super(app);
 		setLayout(null);
 
 		JLabel lblTitulo = new JLabel("BIENVENIDO");
@@ -36,7 +29,7 @@ public class LoginPanel extends JPanel {
 		lblTitulo.setBounds(137, 38, 122, 24);
 		add(lblTitulo);
 
-		tfUsuario = new JTextField();
+		tfUsuario = new MyTextLimitField(tfUsuario);
 		tfUsuario.setBounds(193, 95, 86, 20);
 		add(tfUsuario);
 		tfUsuario.setColumns(10);
@@ -60,14 +53,14 @@ public class LoginPanel extends JPanel {
 		JButton btnRegistrar = new JButton("Registrate aquí");
 		btnRegistrar.setBounds(242, 191, 152, 23);
 		add(btnRegistrar);
-		
+
 		pfContraseña = new JPasswordField();
 		pfContraseña.setBounds(193, 126, 86, 20);
 		add(pfContraseña);
 
 		btnLogin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				app.logearse(tfUsuario.getText(), new String (pfContraseña.getPassword()));
+				app.logearse(tfUsuario.getText(), new String(pfContraseña.getPassword()));
 			}
 		});
 
@@ -76,8 +69,6 @@ public class LoginPanel extends JPanel {
 				app.abrirRegister();
 			}
 		});
-		
-		
-		
+
 	}
 }
