@@ -3,6 +3,5 @@
 /.settings/
 .settings
 .classpath
-*/target/
-target/
-*.project
+.project
+*.log
