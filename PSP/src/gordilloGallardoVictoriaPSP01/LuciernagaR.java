@@ -1,13 +1,15 @@
 package gordilloGallardoVictoriaPSP01;
 
-public class LuciernagaT extends Thread{
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class LuciernagaR implements Runnable{
 	private String nombre;
 	private Boolean encendido;
 	private int energia;
 	private static int milis = 100;
 
-	public LuciernagaT(String nombre, int energia) {
-		super();
+	public LuciernagaR(String nombre, int energia) {
 		if (energia >= 1 && energia <= 50) {
 			this.nombre = nombre;
 			this.encendido = false;
@@ -47,20 +49,27 @@ public class LuciernagaT extends Thread{
 	}
 
 	public static void setMilis(int milis) {
-		LuciernagaT.setMilis(milis);
+		LuciernagaR.milis = milis;
 	}
 
+	public void enciende(ExecutorService executor) {
+		
+		 if (!encendido && energia > 0) {
+	            encendido = true;
+	            executor.submit(this);
+	        }
+		
+		}
 	public void enciende() {
 		
 		 if (!encendido && energia > 0) {
 	            encendido = true;
-	            this.start();
+	            this.run();
 	        }
 		
 		}
-	
 	@Override
-    public void run() {
+	public void run() {
         try {
             while (energia > 0 && encendido) {
                 System.out.println(nombre + " - Energía restante: " + energia);
@@ -79,13 +88,22 @@ public class LuciernagaT extends Thread{
 	
 	
 	public static void main(String[] args) {
-		LuciernagaT a = new LuciernagaT("Manuela", 33);
-		LuciernagaT b = new LuciernagaT("Josefa", 3);
-		LuciernagaT c = new LuciernagaT("Dolores", 16);
+		LuciernagaR a = new LuciernagaR("Manuela", 33);
+		LuciernagaR b = new LuciernagaR("Josefa", 3);
+		LuciernagaR c = new LuciernagaR("Dolores", 16);
 
-		a.enciende();
-		b.enciende();
-		c.enciende();
+		new Thread(a).start();
+		new Thread(b).start();
+		new Thread(c).start();
+		
+		ExecutorService executor = Executors.newFixedThreadPool(1);
+
+		
+        a.enciende(executor);
+        a.enciende(executor);
+        a.enciende(executor);
+
+        executor.shutdown();
 		
 	}
 }

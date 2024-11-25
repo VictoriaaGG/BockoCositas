@@ -90,5 +90,4 @@ public class Luciernaga {
 		b.enciende();
 		c.enciende();
 	}
-
 }
