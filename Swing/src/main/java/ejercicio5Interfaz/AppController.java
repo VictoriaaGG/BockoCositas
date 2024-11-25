@@ -128,13 +128,13 @@ public class AppController {
 			System.out.println(user.toString());
 			abrirProfile(user);
 		} catch (UserNotFoundException e) {
-			JOptionPane.showMessageDialog(null, "Usuario no encontrado", "ERROR_MESSAGE", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, "Usuario no encontrado", "ERROR AL LOGUEARTE", JOptionPane.ERROR_MESSAGE);
 			e.printStackTrace();
 		} catch (UserException e) {
-			JOptionPane.showMessageDialog(null, "Error logueandote", "ERROR_MESSAGE", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, "Error logueandote", "ERROR AL LOGUEARTE", JOptionPane.ERROR_MESSAGE);
 			e.printStackTrace();
 		} catch (UserUnauthorizedException e) {
-			JOptionPane.showMessageDialog(null, "Contraseña incorrecta", "ERROR_MESSAGE", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, "Contraseña incorrecta", "ERROR AL LOGUEARTE", JOptionPane.ERROR_MESSAGE);
 			e.printStackTrace();
 		}
 
