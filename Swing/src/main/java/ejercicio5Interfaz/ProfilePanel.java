@@ -41,14 +41,6 @@ public class ProfilePanel extends View {
 		fileChooser.setDialogTitle("Selecciona un csv");
 		
 		
-		JButton btnImportarUsuarios = new JButton("Importar usuarios");
-		btnImportarUsuarios.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				app.openFileChooser();
-			}
-		});
-		btnImportarUsuarios.setBounds(113, 233, 218, 23);
-		add(btnImportarUsuarios);
 
 		btnSalir.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {

@@ -9,7 +9,7 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import ceu.dam.ad.ejerciciosTema3.csv.exceptions.CsvException;
+import ceu.dam.ad.ejerciciosTema2.csv.exceptions.CsvException;
 import ejercicios.ejercicio01.modelo.Pelicula;
 import ejercicios.ejercicio01.services.PeliculasException;
 import ejercicios.ejercicio01.services.PeliculasService;
