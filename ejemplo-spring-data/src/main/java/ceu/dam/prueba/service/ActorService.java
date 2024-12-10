@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import ceu.dam.prueba.model.Actor;
 import ceu.dam.prueba.repositorie.ActorRepository;
 
-@Service
+@Service //ACUERDATE DE ESTO POR DIOS
 public class ActorService {
 
 	@Autowired // me despreocupo de crear el repositorio, no tengo que instanciarlo
