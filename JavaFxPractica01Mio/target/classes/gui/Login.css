@@ -1,0 +1,47 @@
+#panelFondoCentral{
+    -fx-background-image: url("https://media.istockphoto.com/id/1405835459/es/foto/nubes-de-humo-de-colores-azules-y-rosas-y-brillantes-part%C3%ADculas-de-polvo-de-purpurina-estallan.jpg?s=612x612&w=0&k=20&c=-Mhn7ixL-Fdt6B4DUQB4MJFt8H_vLWY5RUrGExX4md0=");
+}
+#panelPrincipal{
+    -fx-background-image: url("https://media.istockphoto.com/id/1267527347/es/foto/humo-con-part%C3%ADculas-brillantes-de-brillo.jpg?s=612x612&w=0&k=20&c=PV5fFYWY1_44lqDrM9F8kI7tAnDNJPygyqR5tXGo0-M=");
+    -fx-background-repeat: stretch;
+}
+#welcomeTxt {
+    -fx-font-family: "monospace"; 
+    -fx-font-size: 36px;
+    -fx-text-fill: #FFFFFF;
+}
+
+Button{
+    -fx-border-radius:15 ;
+    -fx-transition: 0.3s;
+    -fx-border-color:#8b58f0 ;
+    -fx-background-color: white; 
+}
+Button:hover { 
+    -fx-border-radius:15 ;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.8), 10, 0, 0, 0); /* Brillo */
+    -fx-cursor: hand;  
+    -fx-background-color: white; 
+    -fx-font-size: 13px;
+}
+
+TextField{
+    -fx-font-family: "monospace";
+    -fx-border-radius:15 ;
+    -fx-transition: 0.3s;
+    -fx-border-color:#8b58f0 ;
+    -fx-background-color: white; 
+
+}
+
+PasswordField{
+    -fx-font-family: "monospace";
+    -fx-border-radius:15 ;
+    -fx-transition: 0.3s;
+    -fx-border-color:#8b58f0 ;
+    -fx-background-color: white; 
+}
+
+Label{
+    -fx-font-family: "monospace";
+}
