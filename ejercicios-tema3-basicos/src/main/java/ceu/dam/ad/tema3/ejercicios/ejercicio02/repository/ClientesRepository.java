@@ -1,17 +1,19 @@
 package ceu.dam.ad.tema3.ejercicios.ejercicio02.repository;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.ArrayList;
+
 import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import ceu.dam.ad.tema3.ejercicios.ejercicio02.model.Cliente;
 
-public class ClientesDao {
+@Repository
+public interface ClientesRepository extends JpaRepository<Cliente, Long> {
+	
+	public List<Cliente> findAllByEmail(String email);
 
-	public List<Cliente> consultarClientes(Connection conn) throws SQLException{
+	/**public List<Cliente> consultarClientes(Connection conn) throws SQLException{
 		ResultSet rs = null;
 		try (Statement stmt = conn.createStatement()){
 			List<Cliente> resultado = new ArrayList<Cliente>();
@@ -27,6 +29,6 @@ public class ClientesDao {
 			}
 			return resultado;
 		}
-	}
+	}*/
 
 }
