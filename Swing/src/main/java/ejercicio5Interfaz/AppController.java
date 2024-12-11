@@ -1,13 +1,11 @@
 package ejercicio5Interfaz;
 
 import java.awt.EventQueue;
-import java.io.File;
 
-import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-import ceu.dam.ad.ejerciciosTema3.csv.exceptions.CsvException;
+
 import ejercicio02.service.Ejercicio02Service;
 import ejercicios.ejercicio05.model.User;
 import ejercicios.ejercicio05.service.DuplicateUserException;
@@ -25,7 +23,6 @@ public class AppController {
 	private RegisterPanel register;
 	private UserServiceImpl dao;
 	private User user;
-	private Ejercicio02Service userImpl;
 
 	/**
 	 * Launch the application.
@@ -47,13 +44,12 @@ public class AppController {
 	 * Create the application.
 	 */
 	public AppController() {
-		user = new User();
+		
 		login = new LoginPanel(this);
 		changePass = new ChangePassPanel(this, user);
 		register = new RegisterPanel(this);
 		profile = new ProfilePanel(this, user);
 		this.dao = new UserServiceImpl();
-		this.userImpl = new Ejercicio02Service();
 		initialize();
 	}
 
@@ -66,6 +62,11 @@ public class AppController {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setContentPane(login);
 		frame.setLocationRelativeTo(null);
+		logout();
+	}
+	public void logout() {
+		user = null;
+		changeView(login);
 	}
 
 	public void abrirLogin() {
@@ -147,21 +148,10 @@ public class AppController {
 	public void setUser(User user) {
 		this.user = user;
 	}
+	
+	
 
-	public void openFileChooser() {
-		JFileChooser fileChooser = new JFileChooser();
-		fileChooser.setDialogTitle("Selecciona un csv");
-		Integer selection = fileChooser.showOpenDialog(frame);
-
-		if (selection == JFileChooser.APPROVE_OPTION) {
-			try {
-				File fileToOpen = fileChooser.getSelectedFile();
-				userImpl.importarUsuarioCSV(fileToOpen.getAbsolutePath());
-			} catch (CsvException e) {
-				JOptionPane.showMessageDialog(null, "Error al leer el archivo", "ERROR_MESSAGE", JOptionPane.ERROR_MESSAGE);
-				e.printStackTrace();
-			}
-		}
-	}
+	
+	
 
 }
