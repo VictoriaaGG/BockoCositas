@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="panelPrincipal" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="408.0" prefWidth="610.0" stylesheets="@../../gui/Login.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.inicio.LoginController">
+   <children>
+      <Pane id="panelPrincipal" prefHeight="408.0" prefWidth="610.0" stylesheets="@../../gui/Login.css">
+         <children>
+            <Label id="passOlvidadaLbl" layoutX="238.0" layoutY="379.0" prefHeight="15.0" prefWidth="134.0" text="Bock's Copyright ©" textFill="#ffffff99">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbUsuario" layoutX="103.0" layoutY="14.0" prefHeight="27.0" prefWidth="404.0" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane id="panelFondoCentral" layoutX="181.0" layoutY="56.0" prefHeight="314.0" prefWidth="247.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="227.0" layoutY="87.0" stroke="WHITE" strokeType="INSIDE" width="247.0" />
+            <Label id="welcomeTxt" layoutX="14.0" layoutY="24.0" prefHeight="53.0" prefWidth="247.0" text="Bienvenido" textAlignment="CENTER" />
+            <Button id="entrarBtn" fx:id="btnEntrar" layoutX="31.0" layoutY="241.0" mnemonicParsing="false" onAction="#entrar" prefHeight="25.0" prefWidth="85.0" text="Entrar" />
+            <TextField fx:id="tfUsuario" layoutX="73.0" layoutY="124.0" prefHeight="25.0" prefWidth="149.0" promptText="Usuario" stylesheets="@../../gui/Login.css" />
+            <Button id="RegistrarBtn" fx:id="btnLimpiar" layoutX="138.0" layoutY="241.0" mnemonicParsing="false" onAction="#limpiar" prefHeight="25.0" prefWidth="85.0" text="Limpiar" />
+            <PasswordField fx:id="pfContraseña" layoutX="73.0" layoutY="174.0" prefHeight="25.0" prefWidth="149.0" promptText="Contraseña" stylesheets="@../../gui/Login.css" />
+            <ImageView id="userIcon" fitHeight="27.0" fitWidth="31.0" layoutX="31.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../gui/img/user.png" />
+               </image>
+            </ImageView>
+            <ImageView id="userIcon" fitHeight="27.0" fitWidth="31.0" layoutX="31.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../gui/img/pass.png" />
+               </image>
+            </ImageView>
+            <Label id="passOlvidadaLbl" layoutX="37.0" layoutY="211.0" prefHeight="15.0" prefWidth="186.0" text="No me acuerdo de la contraseña" textFill="#8b58f099" underline="true">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbResultado" layoutX="56.0" layoutY="286.0" prefHeight="14.0" prefWidth="149.0" textAlignment="CENTER" />
+         </children>
+         <stylesheets>
+            <URL value="@../../../../../Login.css" />
+            <URL value="@../../gui/Login.css" />
+         </stylesheets>
+      </Pane>
+   </children>
+</Pane>
