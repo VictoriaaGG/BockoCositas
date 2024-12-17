@@ -1,17 +1,16 @@
 package ceu.dam.ad.tema3.ejercicios.ejercicio04.repository;
 
-import java.sql.Connection;
-import java.sql.Date;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import ceu.dam.ad.tema3.ejercicios.ejercicio04.modelo.Pedido;
 
-public class PedidoDao {
 
-	public Long insertar(Connection conn, Pedido pedido) throws SQLException {
+@Repository
+public interface PedidoRepository extends JpaRepository<Pedido, Long> {
+
+	/**public Long insertar(Connection conn, Pedido pedido) throws SQLException {
 		String sql = "insert into pedidos (fecha_pedido, fecha_entrega, cliente) values (?,?,?)";
 		try (PreparedStatement stmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);){
 			stmt.setDate(1, Date.valueOf(pedido.getFechaPedido()));
@@ -38,5 +37,5 @@ public class PedidoDao {
 			}
 			return null;
 		}
-	}
+	}*/
 }

@@ -1,17 +1,19 @@
 package ceu.dam.ad.tema3.ejercicios.ejercicio04.repository;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
 import ceu.dam.ad.tema3.ejercicios.ejercicio04.modelo.PedidoLinea;
+import ceu.dam.ad.tema3.ejercicios.ejercicio04.modelo.PedidoLineaKey;
 
-public class PedidoLineaDao {
+@Repository
+public interface PedidoLineaRepository extends JpaRepository<PedidoLinea, PedidoLineaKey> {
+	
+	public List<PedidoLinea> findAllByIdPedido(Long id);
 
-	public void insertar(Connection conn, PedidoLinea linea) throws SQLException {
+	/**public void insertar(Connection conn, PedidoLinea linea) throws SQLException {
 		String sql = "insert into pedidos_lineas (id_pedido, numero_linea, articulo, precio) values (?,?,?,?)";
 		try (PreparedStatement stmt = conn.prepareStatement(sql)) {
 			stmt.setLong(1, linea.getIdPedido());
@@ -38,6 +40,6 @@ public class PedidoLineaDao {
 			}
 			return lineas;
 		}
-	}
+	}*/
 
 }

@@ -6,6 +6,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.persistence.Transient;
 import lombok.Data;
 
 @Entity
@@ -25,5 +26,9 @@ public class Cliente {
 	@Column(name = "active")
 	private Boolean activo;
 	
+	//atributo que no quiero que esten mapeados
+	
+	@Transient
+	private Integer edad;
 	
 }

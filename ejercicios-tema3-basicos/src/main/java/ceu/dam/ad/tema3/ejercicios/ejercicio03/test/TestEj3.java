@@ -3,16 +3,17 @@ package ceu.dam.ad.tema3.ejercicios.ejercicio03.test;
 import java.util.List;
 import java.util.Map;
 
+import ceu.dam.ad.tema3.ejercicios.ejercicio02.service.ClientesException;
 import ceu.dam.ad.tema3.ejercicios.ejercicio03.model.Pago;
 import ceu.dam.ad.tema3.ejercicios.ejercicio03.service.PagosException;
 import ceu.dam.ad.tema3.ejercicios.ejercicio03.service.PagosService;
 
 public class TestEj3 {
 
-	public void test() {
+	public void test() throws ClientesException {
 		PagosService service = new PagosService();
 		try {
-			Map<String, List<Pago>> clientesPagos = service.consultarPagosClientes();
+			Map<String, List<Pago>> clientesPagos = service.consultarPagoClientes();
 			List<Pago> pagos = clientesPagos.get("MARILYN.ROSS@sakilacustomer.org");
 			pagos.forEach(System.out::println);
 		

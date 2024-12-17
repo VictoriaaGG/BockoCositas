@@ -11,7 +11,7 @@ public class TestEj2 {
 	public void test() {
 		ClienteService service = new ClienteService();
 		try {
-			Map<String, Cliente> clientes = service.consultarMapaClientes();
+			Map<String, Cliente> clientes = service.consultarMapaClientes(null);
 			Cliente cliente = clientes.get("MARILYN.ROSS@sakilacustomer.org");
 			System.out.println(cliente);
 		
