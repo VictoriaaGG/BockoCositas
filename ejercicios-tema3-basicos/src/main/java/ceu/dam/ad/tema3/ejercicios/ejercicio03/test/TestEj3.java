@@ -13,7 +13,7 @@ public class TestEj3 {
 	public void test() throws ClientesException {
 		PagosService service = new PagosService();
 		try {
-			Map<String, List<Pago>> clientesPagos = service.consultarPagoClientes();
+			Map<String, List<Pago>> clientesPagos = service.consultarPagosClientes();
 			List<Pago> pagos = clientesPagos.get("MARILYN.ROSS@sakilacustomer.org");
 			pagos.forEach(System.out::println);
 		

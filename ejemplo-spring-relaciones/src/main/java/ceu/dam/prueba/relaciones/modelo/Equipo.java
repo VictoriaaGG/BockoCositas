@@ -26,6 +26,13 @@ public class Equipo {
 	private Estadio estadio;
 	
 	//en el otro extremo le pongo el mappedBy para indicarle donde esta la explicacion del JoinColumn
-	@OneToMany(mappedBy = "equipo", fetch = FetchType.EAGER)
+	@OneToMany(mappedBy = "pedidos", fetch = FetchType.EAGER)
 	private List<Jugador> jugadores;
+	//
+//	@ManyToMany(fetch = FetchType.EAGER)
+//	@JoinTable(name = "equipo_patrocinador", 
+//		joinColumns = {@JoinColumn(name = "id_equipo")},
+//		inverseJoinColumns = {@JoinColumn(name = "id_patrocinador")})
+//	private List<Patrocinador> patrocinadores;
+	
 }

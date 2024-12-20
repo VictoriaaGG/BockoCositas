@@ -36,8 +36,9 @@ public class App {
 		
 		repo.save(equipo);*/
 
-		Optional<Equipo> equipo = repo.findById(2);
-		System.out.println(equipo.get());
+		Optional<Equipo> equipoOpt = repo.findById(2);
+		Equipo equipo = equipoOpt.get();
+		System.out.println(equipo);
 
 	}
 

@@ -9,7 +9,7 @@ import ceu.dam.ad.tema3.ejercicios.ejercicio03.model.Pago;
 
 @Repository
 public interface PagosDao extends JpaRepository<Pago, Long> {
-	public List<Pago> findAllByCustomerId(Long id);
+	public List<Pago> findByCustomerId(Long customerId);
 
 	/**
 	 * public List<Pago> consultarPagos(Connection conn, Integer idCliente) throws

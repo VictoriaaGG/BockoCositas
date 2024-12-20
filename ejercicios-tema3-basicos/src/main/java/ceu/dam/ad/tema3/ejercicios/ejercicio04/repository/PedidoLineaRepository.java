@@ -11,7 +11,7 @@ import ceu.dam.ad.tema3.ejercicios.ejercicio04.modelo.PedidoLineaKey;
 @Repository
 public interface PedidoLineaRepository extends JpaRepository<PedidoLinea, PedidoLineaKey> {
 	
-	public List<PedidoLinea> findAllByIdPedido(Long id);
+	public List<PedidoLinea> findByIdPedido(Long idPedido);
 
 	/**public void insertar(Connection conn, PedidoLinea linea) throws SQLException {
 		String sql = "insert into pedidos_lineas (id_pedido, numero_linea, articulo, precio) values (?,?,?,?)";

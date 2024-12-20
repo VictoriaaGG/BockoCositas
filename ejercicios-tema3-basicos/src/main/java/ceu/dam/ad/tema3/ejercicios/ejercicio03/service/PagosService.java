@@ -24,35 +24,42 @@ public class PagosService {
 	@Autowired
 	private ClientesRepository clientesRepository;
 	@Autowired
-	private PagosDao pagosDao;
+	private PagosDao pagosRepository;
 
-	public Map<String, List<Pago>> consultarPagoClientes() throws PagosException, ClientesException {
+	public Map<String, List<Pago>> consultarPagosClientes() throws PagosException {
 		try {
+			log.debug("Consultando mapa de pagos de clientes en SAKILA");
 			Map<String, List<Pago>> mapa = new HashMap<>();
+
+			// 1. Obtener lista de clientes de ClienteDao
 			List<Cliente> clientes = clientesRepository.findAll();
+			// 2. Recorrer la lista de clientes
 			for (Cliente cliente : clientes) {
-				List<Pago> pagos = pagosDao.findAllByCustomerId(cliente.getId());
+				// 4. Por cada cliente --> Llamar a PagosDao y obtener su lista de pagos
+				List<Pago> pagos = pagosRepository.findByCustomerId(cliente.getId());
+				// 5. Meter en el mapa el email del cliente + su lista de pagos
 				mapa.put(cliente.getEmail(), pagos);
 			}
 			return mapa;
-
 		} catch (DataAccessException e) {
-			throw new ClientesException();
+			log.error("Error al obtener pagos de clientes de bbdd", e);
+			throw new PagosException("Error al obtener pagos de cliente", e);
 		}
 	}
-	/**
-	 * public Map<String, List<Pago>> consultarPagosClientes() throws
-	 * PagosException{ try (Connection conn = null){ Map<String, List<Pago>> mapa =
-	 * new HashMap<>();
-	 * 
-	 * // 1. Obtener lista de clientes de ClienteDao List<Cliente> clientes =
-	 * clientesRepository.consultarClientes(conn); // 2. Recorrer la lista de
-	 * clientes for (Cliente cliente : clientes) { // 4. Por cada cliente --> Llamar
-	 * a PagosDao y obtener su lista de pagos List<Pago> pagos =
-	 * pagosDao.consultarPagos(conn, cliente.getId()); // 5. Meter en el mapa el
-	 * email del cliente + su lista de pagos mapa.put(cliente.getEmail(), pagos); }
-	 * return mapa; } catch(SQLException e) { System.err.println("Error al obtener
-	 * pagos de clientes de bbdd"); throw new PagosException("Error al obtener pagos
-	 * de cliente", e); } }
-	 */
 }
+
+/**
+ * public Map<String, List<Pago>> consultarPagosClientes() throws
+ * PagosException{ try (Connection conn = null){ Map<String, List<Pago>> mapa =
+ * new HashMap<>();
+ * 
+ * // 1. Obtener lista de clientes de ClienteDao List<Cliente> clientes =
+ * clientesRepository.consultarClientes(conn); // 2. Recorrer la lista de
+ * clientes for (Cliente cliente : clientes) { // 4. Por cada cliente --> Llamar
+ * a PagosDao y obtener su lista de pagos List<Pago> pagos =
+ * pagosDao.consultarPagos(conn, cliente.getId()); // 5. Meter en el mapa el
+ * email del cliente + su lista de pagos mapa.put(cliente.getEmail(), pagos); }
+ * return mapa; } catch(SQLException e) { System.err.println("Error al obtener
+ * pagos de clientes de bbdd"); throw new PagosException("Error al obtener pagos
+ * de cliente", e); } }
+ */
