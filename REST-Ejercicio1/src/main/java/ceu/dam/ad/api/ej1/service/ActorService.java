@@ -16,15 +16,19 @@ public class ActorService {
 
 	@Autowired
 	ActorRepository rep;
-	
+
 	@Transactional
 	public Actor crearActor(Actor actor) {
+		actor.setLastUpdate(LocalDate.now());
 		return rep.save(actor);
 	}
+
 	@Transactional
 	public Actor actualizarActor(Actor actor) {
+		actor.setLastUpdate(LocalDate.now());
 		return rep.save(actor);
 	}
+
 	@Transactional
 	public void borrarActor(Integer id) {
 		rep.deleteById(id);
@@ -39,12 +43,18 @@ public class ActorService {
 		return actor;
 	}
 
-	public List<Actor> buscarActoresNombreApellido(String filtro, String filtro2) {
-		List<Actor> lista = rep.findByFirstNameOrLastNameContaining(filtro, filtro2);
+	public List<Actor> buscarActoresNombreApellido(String filtro) {
+		List<Actor> lista = rep.findByFirstNameContainingOrLastNameContaining(filtro, filtro);
 		return lista;
 	}
 
 	public List<Actor> buscarActoresFecha(LocalDate fecha1, LocalDate fecha2) {
+		if (fecha1 == null) {
+			fecha1 = LocalDate.of(1900, 1, 1);
+		}
+		if (fecha2 == null) {
+			fecha2 = LocalDate.of(2900, 1, 1);
+		}
 		List<Actor> lista = rep.findByLastUpdateBetween(fecha1, fecha2);
 		return lista;
 	}

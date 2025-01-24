@@ -10,7 +10,7 @@ import java.time.LocalDate;
 
 @Repository
 public interface ActorRepository extends JpaRepository<Actor, Integer> {
-	public List<Actor> findByFirstNameOrLastNameContaining(String filtro1, String filtro2);
+	public List<Actor> findByFirstNameContainingOrLastNameContaining(String filtro1, String filtro2);
 
 	public List<Actor> findByLastUpdateBetween(LocalDate fecha1, LocalDate fecha2);
 }

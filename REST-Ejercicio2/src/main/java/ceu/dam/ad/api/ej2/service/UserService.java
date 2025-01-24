@@ -26,7 +26,7 @@ public class UserService {
 				log.debug("Usuario con email repetido");
 				throw new DuplicateUserException("Ya existe usuario con el email indicado");
 			}
-			existsUser = repository.findOneByUsername(user.getEmail());
+			existsUser = repository.findOneByUsername(user.getUsername());
 			if (existsUser.isPresent()) {
 				log.debug("Usuario con username repetido");
 				throw new DuplicateUserException("Ya existe usuario con el username indicado");
