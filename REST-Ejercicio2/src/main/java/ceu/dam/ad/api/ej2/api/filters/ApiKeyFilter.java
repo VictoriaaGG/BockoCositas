@@ -16,18 +16,27 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 @Component
-@SecurityScheme(name = "Autgorization", type = SecuritySchemeType.APIKEY, in = SecuritySchemeIn.HEADER, paramName = "API-KEY")
+@SecurityScheme(
+	name = "Authorization",
+	type = SecuritySchemeType.APIKEY,
+	in = SecuritySchemeIn.HEADER,
+	paramName = "API-KEY"
+	)
 public class ApiKeyFilter extends OncePerRequestFilter {
 
 	@Value("${api.key}")
 	private String apiKey;
-
+	@Override
+	protected boolean shouldNotFilter(HttpServletRequest request) throws ServletException {
+		String requestURI = request.getRequestURI();
+		return (requestURI.startsWith("/swagger") || requestURI.startsWith("api-docs"));
+		
+	}
 	@Override
 	protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
 			throws ServletException, IOException {
 		String apiKeyRequest = request.getHeader("API-KEY");
-		String path = request.getRequestURI();
-		if (path.startsWith("/swagger") || path.startsWith("/docs") || apiKey.equals(apiKeyRequest)) {
+		if (apiKey.equals(apiKeyRequest)) {
 			filterChain.doFilter(request, response);
 		} else {
 			response.setStatus(HttpStatus.UNAUTHORIZED.value());

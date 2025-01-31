@@ -17,6 +17,8 @@ public class SecurityConfig {
 
 	@Bean
 	SecurityFilterChain getSecurityFilterChain(HttpSecurity http) throws Exception {
+		//para poder hacer inputs peticiones,no se desactiva en web, pero si en api pq es a un servidor
+		http.csrf(crsf -> crsf.disable());
 		http.addFilterBefore(apiKeyFilter, UsernamePasswordAuthenticationFilter.class);
 		return http.build();
 	}

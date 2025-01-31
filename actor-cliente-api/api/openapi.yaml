@@ -1,0 +1,172 @@
+openapi: 3.1.0
+info:
+  title: OpenAPI definition
+  version: v0
+servers:
+- description: Generated server url
+  url: http://localhost:8080
+paths:
+  /api/actores:
+    post:
+      operationId: crear
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Actor'
+        required: true
+      responses:
+        "200":
+          content:
+            '*/*':
+              schema:
+                $ref: '#/components/schemas/Actor'
+          description: OK
+      tags:
+      - actor-api-service
+      x-content-type: application/json
+      x-accepts:
+      - '*/*'
+    put:
+      operationId: actualizarCoche
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Actor'
+        required: true
+      responses:
+        "200":
+          content:
+            '*/*':
+              schema:
+                $ref: '#/components/schemas/Actor'
+          description: OK
+      tags:
+      - actor-api-service
+      x-content-type: application/json
+      x-accepts:
+      - '*/*'
+  /api/actores/{id}:
+    delete:
+      operationId: borrar
+      parameters:
+      - explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          format: int32
+          type: integer
+        style: simple
+      responses:
+        "200":
+          description: OK
+      tags:
+      - actor-api-service
+      x-accepts:
+      - application/json
+    get:
+      operationId: consultar
+      parameters:
+      - explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          format: int32
+          type: integer
+        style: simple
+      responses:
+        "200":
+          content:
+            '*/*':
+              schema:
+                $ref: '#/components/schemas/Actor'
+          description: OK
+      tags:
+      - actor-api-service
+      x-accepts:
+      - '*/*'
+  /api/actores/filtro:
+    get:
+      operationId: buscarPorNombreApellido
+      parameters:
+      - explode: true
+        in: query
+        name: filtro1
+        required: false
+        schema:
+          default: ""
+          type: string
+        style: form
+      responses:
+        "200":
+          content:
+            '*/*':
+              schema:
+                items:
+                  $ref: '#/components/schemas/Actor'
+                type: array
+          description: OK
+      tags:
+      - actor-api-service
+      x-accepts:
+      - '*/*'
+  /api/actores/fechas:
+    get:
+      operationId: buscarPorFecha
+      parameters:
+      - explode: true
+        in: query
+        name: fecha1
+        required: false
+        schema:
+          format: date
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: fecha2
+        required: false
+        schema:
+          format: date
+          type: string
+        style: form
+      responses:
+        "200":
+          content:
+            '*/*':
+              schema:
+                items:
+                  $ref: '#/components/schemas/Actor'
+                type: array
+          description: OK
+      tags:
+      - actor-api-service
+      x-accepts:
+      - '*/*'
+components:
+  schemas:
+    Actor:
+      example:
+        firstName: firstName
+        lastName: lastName
+        lastUpdate: 2000-01-23
+        id: 0
+      properties:
+        id:
+          description: Actor ID. Se debe enviar null para crear nueva entiedad
+          format: int32
+          type: integer
+        firstName:
+          type: string
+        lastName:
+          type: string
+        lastUpdate:
+          format: date
+          type: string
+      required:
+      - firstName
+      - lastName
+
