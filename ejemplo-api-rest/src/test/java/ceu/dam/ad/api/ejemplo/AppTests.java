@@ -1,9 +1,17 @@
 package ceu.dam.ad.api.ejemplo;
 
-import java.util.ArrayList;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import static org.junit.jupiter.api.Assertions.*;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.MethodOrderer;
+import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
@@ -11,17 +19,20 @@ import org.springframework.test.context.ActiveProfiles;
 import ceu.dam.ad.api.ejemplo.model.Coche;
 import ceu.dam.ad.api.ejemplo.model.Conductor;
 import ceu.dam.ad.api.ejemplo.service.CocheService;
+import ceu.dam.ad.api.ejemplo.service.NotFoundException;
 
 @SpringBootTest
 @ActiveProfiles("test")
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class AppTests {
 
 	@Autowired
 	private CocheService service;
-
-	@Test
-	void testCrearCoche() {
-		Coche coche = new Coche();
+	private Coche coche;
+	
+	@BeforeEach
+	void initTest() {
+		coche = new Coche();
 		coche.setMarca("CITROEN");
 		coche.setModelo("BERLINGO");
 		coche.setConductores(new ArrayList<>());
@@ -31,11 +42,47 @@ class AppTests {
 		coche.getConductores().add(new Conductor());
 		coche.getConductores().getLast().setNombre("Blas 2");
 		coche.getConductores().getLast().setEdad(23);
+	}
 
+	@Test
+	@Order(1)
+	void testCrearCoche() {
 		Coche cocheCreado = service.crearCoche(coche);
 		assertNotNull(cocheCreado);
 		assertEquals(1L, coche.getId());
 		
 	}
+	
+	@Test
+	@Order(2)
+	void testConsultarCoche() throws NotFoundException {
+		Coche cocheConsultado = service.consultarCoche(1L);
+		
+		assertEquals(coche.getMarca(),cocheConsultado.getMarca());
+		assertEquals(2,cocheConsultado.getConductores().size());
+	}
+	
+	@Test
+	@Order(3)
+	void testConsultarCocheNoExiste() {
+		assertThrows(NotFoundException.class,()->service.consultarCoche(99L));
+	}
+	
+	@Test
+	@Order(4)
+	void testBuscarCoche() {
+		List<Coche> resultado = service.buscarCoches("test");
+		assertNotNull(resultado);
+		assertEquals(1,resultado.size());
+		assertEquals(coche.getModelo(), resultado.getFirst().getModelo());
+	}
+	
+	@Test
+	@Order(5)
+	void testBorrarCoche() throws NotFoundException {
+		service.borrarCoche(1L);
+		assertThrows(NotFoundException.class,()->service.consultarCoche(99L));
+	}
+	
 
 }
