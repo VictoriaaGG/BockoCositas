@@ -16,7 +16,7 @@ public class ClienteServiceImpl {
 
 	public Cliente crearCliente(Cliente cliente) throws DatosIncorrectosException {
 		
-		if (rep.findByDni(cliente.getDni())==null) {
+		if (rep.findByDni(cliente.getDni())!=null) {
 			throw new DatosIncorrectosException("Ya hay un cliente así");
 		}
 		return rep.save(cliente);
