@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.menu.AltaClientesController">
+   <children>
+      <TextField fx:id="dniTf" layoutX="226.0" layoutY="149.0" prefHeight="25.0" prefWidth="225.0" promptText="Introduce el dni del cliente" />
+      <TextField fx:id="nombreTf" layoutX="226.0" layoutY="188.0" prefHeight="25.0" prefWidth="225.0" promptText="Introduce el nombre del cliente" />
+      <TextField fx:id="direccionTf" layoutX="226.0" layoutY="228.0" prefHeight="25.0" prefWidth="225.0" promptText="Introduce la dirección del cliente" />
+      <Label layoutX="155.0" layoutY="31.0" prefHeight="62.0" prefWidth="312.0" text="ALTA CLIENTE" textAlignment="CENTER">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="187.0" layoutY="153.0" text="Dni" />
+      <Label layoutX="165.0" layoutY="192.0" text="Nombre" />
+      <Label layoutX="162.0" layoutY="232.0" text="Dirección" />
+      <Button fx:id="crearBoton" layoutX="234.0" layoutY="292.0" mnemonicParsing="false" onAction="#enviarDatosCliente" prefHeight="25.0" prefWidth="132.0" text="CREAR" />
+   </children>
+</AnchorPane>
